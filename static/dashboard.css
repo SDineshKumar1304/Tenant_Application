@@ -1,0 +1,223 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+#sidebar {
+    min-width: 265px;
+    max-width: 250px;
+    background: #343a40;
+    color: #fff;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #21588f;
+    text-align: center;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    flex-grow: 1;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li {
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    color: #adb5bd;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar ul li:hover {
+    background: #495057;
+    color: #fff;
+}
+
+#sidebar ul li a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar ul li a:hover {
+    color: #fff;
+}
+
+#sidebar ul li.active {
+    background: #495057;
+    color: #fff;
+}
+
+#sidebar ul li.active a {
+    color: #fff;
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    background: #e9ecef;
+    display: flex;
+    flex-direction: column;
+}
+
+#content h2 {
+    margin: 0 0 20px;
+    color: #343a40;
+}
+
+#content p {
+    color: #6c757d;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #343a40;
+    color: #fff;
+    padding: 10px 20px;
+    height: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar .navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav li {
+    margin-left: 20px;
+}
+
+.navbar .navbar-nav li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #adb5bd;
+}
+
+.footer {
+    margin-top: 20px; /* Adjust the margin to move the footer up */
+    padding: 19px 20px;
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+    position: relative; /* Ensures footer stays relative to its normal position */
+    bottom: -450px;
+}
+
+/* General profile page styling */
+.profile-container {
+    max-width: 1000px;
+    max-height: 1500px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-container h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 2em;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+}
+
+.profile-detail {
+    margin-bottom: 15px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
+
+.profile-detail label {
+    font-weight: bold;
+    color: #444;
+    display: block;
+    margin-bottom:-40px;
+}
+
+.profile-detail p {
+    margin: 0;
+    color: #666;
+}
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px; /* Adjust to fit the form */
+    margin: 0 auto; /* Center the form */
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form label {
+    font-size: 14px; /* Smaller font size for the label */
+    margin-bottom: 5px;
+}
+
+.upload-form input[type="file"] {
+    font-size: 12px; /* Smaller font size for the file input */
+    padding: 5px;
+    margin-bottom: 10px; /* Space below the file input */
+}
+
+.upload-form input[type="submit"] {
+    font-size: 14px; /* Smaller font size for the submit button */
+    padding: 7px 15px; /* Adjust padding for smaller button */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
