@@ -15,10 +15,10 @@
             <ul class="list-unstyled components">
                 <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
                 <li><a href="#">Analysis</a></li>
-                <li><a href="#">Tenant </a></li>
+                <li><a href="#">Tenant</a></li>
                 <li><a href="#">Property Details</a></li>
                 <li><a href="#">Settings</a></li>
-                <li class="active"><a href="{{ url_for('profile') }}">Profile</a></li>
+                <li class="active"><a href="{{ url_for('profile') }}">My Profile</a></li>
             </ul>
         </nav>
 
@@ -33,28 +33,29 @@
 
             <div class="profile-container">
                 <img src="{{ url_for('static', filename='uploads/' + profile.profile_photo) }}" alt="Profile Photo" class="profile-photo">
-                <h2> Profile</h2>
-                <div class="profile-detail">
-                    <label for="username">Username:</label>
-                    <p>{{ profile.username }}</p>
+                <h2>My Profile</h2>
+                <div class="profile-details">
+                    <div class="profile-detail">
+                        <label for="username">Username:</label>
+                        <p>{{ profile.username }}</p>
+                    </div>
+                    <div class="profile-detail">
+                        <label for="full_name">Full Name:</label>
+                        <p>{{ profile.full_name }}</p>
+                    </div>
+                    <div class="profile-detail">
+                        <label for="email">Email:</label>
+                        <p>{{ profile.email }}</p>
+                    </div>
+                    <div class="profile-detail">
+                        <label for="phone">Phone:</label>
+                        <p>{{ profile.phone }}</p>
+                    </div>
+                    <div class="profile-detail">
+                        <label for="address">Address:</label>
+                        <p>{{ profile.address }}</p>
+                    </div>
                 </div>
-                <div class="profile-detail">
-                    <label for="full_name">Full Name:</label>
-                    <p>{{ profile.full_name }}</p>
-                </div>
-                <div class="profile-detail">
-                    <label for="email">Email:</label>
-                    <p>{{ profile.email }}</p>
-                </div>
-                <div class="profile-detail">
-                    <label for="phone">Phone:</label>
-                    <p>{{ profile.phone }}</p>
-                </div>
-                <div class="profile-detail">
-                    <label for="address">Address:</label>
-                    <p>{{ profile.address }}</p>
-                </div>
-
                 <div class="upload-form">
                     <form action="{{ url_for('profile') }}" method="post" enctype="multipart/form-data">
                         <label for="file">Upload new profile photo:</label><br>

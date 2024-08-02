@@ -1,68 +1,87 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #000000, #333333);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    color: #ffffff;
 }
+
 .login-container {
-    background-color: #fff;
+    background-color: #000000;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid #d4af37;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     width: 350px;
-}
-.login-container h2 {
     text-align: center;
+}
+
+.login-container h2 {
     margin-bottom: 20px;
+    color: #d4af37;
 }
-.login-container form {
-    display: flex;
-    flex-direction: column;
-}
-.login-container form input {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-.login-container form .password-container {
-    position: relative;
-}
-.login-container form .password-container input {
+
+.login-container input[type="text"], 
+.login-container input[type="password"] {
     width: 100%;
-}
-.login-container form .password-container .toggle-password {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-.login-container form button {
-    padding: 10px;
+    padding: 15px;
+    margin: 10px 0;
     border: none;
     border-radius: 5px;
-    background-color: #28a745;
-    color: #fff;
-    font-size: 16px;
+    box-sizing: border-box;
+    background: #333333;
+    color: #ffffff;
+    border: 1px solid #d4af37;
+}
+
+.login-container input[type="text"]::placeholder,
+.login-container input[type="password"]::placeholder {
+    color: #999999;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
     cursor: pointer;
+    color: #d4af37;
 }
-.login-container form button:hover {
-    background-color: #218838;
-}
-.login-container form .remember-me {
+
+.remember-me {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
-.login-container form .remember-me input {
+
+.remember-me input[type="checkbox"] {
     margin-right: 10px;
 }
-.login-container form .error-message {
-    color: red;
-    margin-bottom: 15px;
+
+.login-container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #d4af37;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000000;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #b8860b;
+}
+
+.error-message {
+    color: #e74c3c;
+    margin-bottom: 10px;
 }
