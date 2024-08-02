@@ -1,13 +1,15 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session
 from werkzeug.utils import secure_filename
 import os
+import joblib
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
 app.secret_key = 'DK1329'
 
 UPLOAD_FOLDER = 'static/uploads'
 ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png', 'gif'}
-UPLOAD_FOLDER = 'static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 VALID_USERNAME = 'Dinesh Kumar'
@@ -18,12 +20,13 @@ ADMIN_PROFILE = {
     'full_name': 'User',
     'phone': '123-456-7890',
     'address': '123  St, City, AC 12345',
-    'profile_photo': 'profile.jpg'  
+    'profile_photo': 'profile.jpg'
 }
 
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -52,7 +55,7 @@ def logout():
 @app.route('/dashboard')
 def dashboard():
     if 'username' not in session:
-        return redirect(url_for('login')) 
+        return redirect(url_for('login'))
     return render_template('dashboard.html')
 
 @app.route('/profile', methods=['GET', 'POST'])
@@ -73,7 +76,6 @@ def profile():
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-            print(f"Saving file to: {filepath}")  # Debug statement
             file.save(filepath)
             ADMIN_PROFILE['profile_photo'] = filename
             return redirect(url_for('profile'))
@@ -83,7 +85,30 @@ def profile():
 
     return render_template('profile.html', profile=ADMIN_PROFILE)
 
+@app.route('/model_analysis', methods=['GET', 'POST'])
+def model_analysis():
+    if 'username' not in session:
+        return redirect(url_for('login'))
 
+    result = None
+    # if request.method == 'POST':
+    #     data = {
+    #         'Employment History': [int(request.form['employment_history'])],
+    #         'Income': [int(request.form['income'])],
+    #         'Rental History': [int(request.form['rental_history'])],
+    #         'Credit Score': [int(request.form['credit_score'])],
+    #         'Payment History': [int(request.form['payment_history'])],
+    #         'Outstanding Debts': [int(request.form['outstanding_debts'])],
+    #         'Criminal Records': [int(request.form['criminal_records'])],
+    #         'Legal Issues': [int(request.form['legal_issues'])],
+    #         'Employment Verification': [int(request.form['employment_verification'])],
+    #         'Income Verification': [int(request.form['income_verification'])],
+    #         'Personal References': [int(request.form['personal_references'])],
+    #         'Professional References': [int(request.form['professional_references'])]
+    #     }
+
+    
+    return render_template('model_analysis.html', result=result)
 
 if __name__ == '__main__':
     app.run(debug=True)
