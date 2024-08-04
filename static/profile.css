@@ -127,65 +127,77 @@ h2 {
     margin-bottom: 20px;
 }
 
-form {
-    background: #333;
-    padding: 30px;
-    border-radius: 8px;
+.profile-container {
     max-width: 800px;
     margin: auto;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    background: #1b1b1b;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #d4af37; /* Gold border */
+    margin: 0 auto 20px auto; /* Centers the photo horizontally and adds margin below */
+    display: block; /* Ensures the image is treated as a block element for centering */
 }
 
-form label {
+.profile-details {
+    margin-bottom: 20px;
+}
+
+.profile-detail {
+    margin-bottom: 15px;
+}
+
+.profile-detail label {
+    font-weight: bold;
+    color: #d4af37; /* Gold text */
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile-detail p {
+    margin: 0;
+    color: #e5e5e5;
+}
+
+.upload-form {
+    margin-top: 20px;
+}
+
+.upload-form form {
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.upload-form label {
     display: block;
     margin-bottom: 10px;
-    font-size: 1.2em;
-    color: #d4af37;
+    color: #d4af37; /* Gold text */
 }
 
-form input[type="text"],
-form input[type="number"] {
-    width: calc(100% - 22px);
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 2px solid #d4af37;
-    border-radius: 5px;
-    background: #1c1c1c;
-    color: #eaeaea;
-    font-size: 1em;
-    transition: border-color 0.3s;
+.upload-form input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
 }
 
-form input[type="text"]:focus,
-form input[type="number"]:focus {
-    border-color: #e29625;
-    outline: none;
-}
-
-form input[type="submit"] {
-    background: #d4af37;
+.upload-form input[type="submit"] {
+    background: #d4af37; /* Gold background */
     border: none;
-    color: #000000;
-    padding: 15px 30px;
+    color: #ffffff;
+    padding: 10px 20px;
     border-radius: 5px;
-    font-size: 1.2em;
+    font-size: 1em;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s;
 }
 
-form input[type="submit"]:hover {
-    background: #b89b30;
+.upload-form input[type="submit"]:hover {
+    background: #b8860b; /* Darker gold background on hover */
     transform: scale(1.02);
-}
-
-.result {
-    background: #444;
-    padding: 20px;
-    border-radius: 8px;
-    color: #d4af37;
-    text-align: center;
-    font-size: 1.2em;
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
