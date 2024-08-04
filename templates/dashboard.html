@@ -20,10 +20,10 @@
                     <a href="{{ url_for('model_analysis') }}">Model Classification</a>
                 </li>
                 <li>
-                    <a href="#">Analysis</a>
+                    <a href="{{ url_for('analysis') }}">Analysis</a>
                 </li>
                 <li>
-                    <a href="#">Tenant </a>
+                    <a href="#">Tenant</a>
                 </li>
                 <li>
                     <a href="#">Property Details</a>
@@ -34,7 +34,6 @@
                 <li>
                     <a href="#">Settings</a>
                 </li>
-                
             </ul>
         </nav>
 
@@ -49,6 +48,59 @@
             <br>
             <h2>Welcome to Dashboard</h2>
             <p>Here you can view and manage all analyses related to the Performance and other data.</p>
+
+            <h3>Total Tenants: {{ total_tenants }}</h3>
+
+            <!-- Display Approved vs Rejected Plot -->
+            <div>
+                <h3>Tenant Status Distribution</h3>
+                {{ status_plot|safe }}
+            </div>
+
+            <!-- Tenant Data Table -->
+            <div>
+                <h3>Tenant Data</h3>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Employment History</th>
+                            <th>Income</th>
+                            <th>Rental History</th>
+                            <th>Credit Score</th>
+                            <th>Payment History</th>
+                            <th>Outstanding Debts</th>
+                            <th>Criminal Records</th>
+                            <th>Legal Issues</th>
+                            <th>Employment Verification</th>
+                            <th>Income Verification</th>
+                            <th>Personal References</th>
+                            <th>Professional References</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for tenant in tenant_data %}
+                        <tr>
+                            <td>{{ tenant.id }}</td>
+                            <td>{{ tenant.employment_history }}</td>
+                            <td>{{ tenant.income }}</td>
+                            <td>{{ tenant.rental_history }}</td>
+                            <td>{{ tenant.credit_score }}</td>
+                            <td>{{ tenant.payment_history }}</td>
+                            <td>{{ tenant.outstanding_debts }}</td>
+                            <td>{{ tenant.criminal_records }}</td>
+                            <td>{{ tenant.legal_issues }}</td>
+                            <td>{{ tenant.employment_verification }}</td>
+                            <td>{{ tenant.income_verification }}</td>
+                            <td>{{ tenant.personal_references }}</td>
+                            <td>{{ tenant.professional_references }}</td>
+                            <td>{{ tenant.result }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </body>

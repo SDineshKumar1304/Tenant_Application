@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>LandLord Dashboard</h3>
+            </div>
+            <ul class="list-unstyled components">
+                <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                <li><a href="{{ url_for('model_analysis') }}">Model Classification</a></li>
+                <li><a href="{{ url_for('analysis') }}">Analysis</a></li>
+                <li><a href="#">Tenant</a></li>
+                <li><a href="#">Property Details</a></li>
+                <li><a href="{{ url_for('profile') }}">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+
+        <div id="content">
+            <div class="navbar">
+                <div class="navbar-brand">LandLord</div>
+                <ul class="navbar-nav">
+                    <li><a href="{{ url_for('profile') }}">Profile</a></li>
+                    <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                </ul>
+            </div>
+            <br>
+            <h2>Data Analysis</h2>
+            <p>Here you can view the analysis of tenant data.</p>
+
+            <!-- Total Tenants Plot -->
+            <div class="plot-container">
+                <h3>Total Count of Tenants</h3>
+                {{ count_plot | safe }}
+            </div>
+
+            <!-- Credit Score Plot -->
+            <div class="plot-container">
+                <h3>Credit Score Distribution</h3>
+                {{ credit_score_plot | safe }}
+            </div>
+
+            <!-- Income Plot -->
+            <div class="plot-container">
+                <h3>Income Distribution</h3>
+                {{ income_plot | safe }}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

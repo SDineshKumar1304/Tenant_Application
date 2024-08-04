@@ -4,6 +4,8 @@ import os
 import joblib
 import pandas as pd
 from flask_sqlalchemy import SQLAlchemy
+import plotly.express as px
+import plotly.io as pio
 
 app = Flask(__name__)
 app.secret_key = 'DK1329'
@@ -61,7 +63,41 @@ def logout():
 def dashboard():
     if 'username' not in session:
         return redirect(url_for('login'))
-    return render_template('dashboard.html')
+
+    # Get total tenants count
+    total_tenants = TenantApplication.query.count()
+    
+    # Get counts of approved and rejected tenants
+    approved_count = TenantApplication.query.filter_by(result='Approved').count()
+    rejected_count = TenantApplication.query.filter_by(result='Rejected').count()
+
+    # Generate plot for approved vs rejected tenants
+    status_counts = {'Approved': approved_count, 'Rejected': rejected_count}
+    status_fig = px.bar(x=list(status_counts.keys()), y=list(status_counts.values()), title='Approved vs Rejected Tenants', labels={'x': 'Status', 'y': 'Count'})
+    status_plot = pio.to_html(status_fig, full_html=False)
+
+    # Get tenant data
+    tenants = TenantApplication.query.all()
+    tenant_data = [{
+        'id': tenant.id,
+        'employment_history': tenant.employment_history,
+        'income': tenant.income,
+        'rental_history': tenant.rental_history,
+        'credit_score': tenant.credit_score,
+        'payment_history': tenant.payment_history,
+        'outstanding_debts': tenant.outstanding_debts,
+        'criminal_records': tenant.criminal_records,
+        'legal_issues': tenant.legal_issues,
+        'employment_verification': tenant.employment_verification,
+        'income_verification': tenant.income_verification,
+        'personal_references': tenant.personal_references,
+        'professional_references': tenant.professional_references,
+        'result': tenant.result
+    } for tenant in tenants]
+
+    return render_template('dashboard.html', total_tenants=total_tenants, status_plot=status_plot, tenant_data=tenant_data)
+
+
 
 @app.route('/profile', methods=['GET', 'POST'])
 def profile():
@@ -167,6 +203,39 @@ def model_analysis():
             print("Error inserting data:", e)
 
     return render_template('model_analysis.html', result=result)
+@app.route('/analysis')
+def analysis():
+    # Use Flask's database engine
+    query = "SELECT * FROM tenant_applications"
+    df = pd.read_sql(query, db.engine)  # Use db.engine instead of create_engine
+
+    # Generate plots
+    credit_score_fig = px.histogram(df, x='credit_score', title='Credit Score Distribution')
+    income_fig = px.histogram(df, x='income', title='Income Distribution')
+
+    # Count of tenants plot
+    total_tenants = df.shape[0]
+    count_data = pd.DataFrame({'Category': ['Total Tenants'], 'Count': [total_tenants]})
+    count_fig = px.bar(count_data, x='Category', y='Count', title='Total Count of Tenants')
+
+    # Convert figures to HTML
+    credit_score_plot = pio.to_html(credit_score_fig, full_html=False)
+    income_plot = pio.to_html(income_fig, full_html=False)
+    count_plot = pio.to_html(count_fig, full_html=False)
+
+    return render_template('analysis.html', credit_score_plot=credit_score_plot, income_plot=income_plot, count_plot=count_plot)
+
+def create_credit_score_plot(data):
+    fig = px.histogram(data, x='credit_score', title='Credit Score Distribution')
+    fig.update_layout(xaxis_title='Credit Score', yaxis_title='Frequency')
+    plot_html = pio.to_html(fig, full_html=False)
+    return plot_html
+
+def create_income_plot(data):
+    fig = px.histogram(data, x='income', title='Income Distribution')
+    fig.update_layout(xaxis_title='Income', yaxis_title='Frequency')
+    plot_html = pio.to_html(fig, full_html=False)
+    return plot_html
 
 
 if __name__ == '__main__':

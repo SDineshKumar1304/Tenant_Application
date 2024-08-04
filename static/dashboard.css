@@ -18,7 +18,7 @@ nav#sidebar {
     border-right: 1px solid #e0e0e0;
     display: flex;
     flex-direction: column;
-    height: 1561px;
+    height: 1767px;
 
 }
 
@@ -169,4 +169,16 @@ form input[type="submit"]:hover {
     .navbar {
         padding: 10px;
     }
+}
+
+.total-tenants {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.total-tenants h3 {
+    margin-top: 0;
 }
