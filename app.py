@@ -7,6 +7,7 @@ from flask_sqlalchemy import SQLAlchemy
 import plotly.express as px
 import plotly.io as pio
 import traceback
+
 app = Flask(__name__)
 app.secret_key = 'DK1329'
 
@@ -20,6 +21,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 VALID_USERNAME = 'Dinesh Kumar'
 VALID_PASSWORD = 'Dinesh@123'
+
 ADMIN_PROFILE = {
     'username': 'S Dinesh Kumar',
     'email': 'svani4830@gmail.com',
@@ -58,6 +60,7 @@ def login():
 def logout():
     session.pop('username', None)
     return redirect(url_for('login'))
+
 @app.route('/dashboard')
 def dashboard():
     if 'username' not in session:
@@ -243,7 +246,6 @@ def create_income_plot(data):
     fig.update_layout(xaxis_title='Income', yaxis_title='Frequency')
     plot_html = pio.to_html(fig, full_html=False)
     return plot_html
-
 @app.route('/tenant', methods=['GET', 'POST'])
 def tenant():
     if 'username' not in session:
@@ -260,7 +262,7 @@ def tenant():
             'birth_certificate': request.files['birth_certificate']
         }
         
-        # Ensure files are PDFs
+        # Save uploaded files
         for file_key, file in files.items():
             if file and allowed_file(file.filename) and file.filename.endswith('.pdf'):
                 filename = secure_filename(file.filename)
@@ -272,20 +274,21 @@ def tenant():
 
         flash('Documents successfully uploaded.')
         return redirect(url_for('tenant'))
-    
-    return render_template('tenant.html')
+
+    tenants = TenantApplication.query.all()
+    return render_template('tenant.html', tenants=tenants)
 
 @app.route('/tenant/<int:tenant_id>')
 def tenant_details(tenant_id):
     tenant = TenantApplication.query.get_or_404(tenant_id)
     
     # Construct file paths (assuming you store the files with the tenant ID or some identifier)
-    aadhar_path = os.path.join(app.config['UPLOAD_FOLDER'], f'{tenant.id}_aadhar.pdf')
-    income_path = os.path.join(app.config['UPLOAD_FOLDER'], f'{tenant.id}_income.pdf')
+    aadhar_path = os.path.join(app.config['UPLOAD_FOLDER'], f'{tenant_id}_aadhar.pdf')
+    income_path = os.path.join(app.config['UPLOAD_FOLDER'], f'{tenant_id}_income.pdf')
+    birth_certificate_path = os.path.join(app.config['UPLOAD_FOLDER'], f'{tenant_id}_birth_certificate.pdf')
     
     # Add paths to context
-    return render_template('tenant_details.html', tenant=tenant, aadhar_path=aadhar_path, income_path=income_path)
-
+    return render_template('tenant_details.html', tenant=tenant, aadhar_path=aadhar_path, income_path=income_path, birth_certificate_path=birth_certificate_path)
 
 if __name__ == '__main__':
     app.run(debug=True)
