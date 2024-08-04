@@ -3,10 +3,15 @@ from werkzeug.utils import secure_filename
 import os
 import joblib
 import pandas as pd
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.secret_key = 'DK1329'
 
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@localhost/Tenant'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
 UPLOAD_FOLDER = 'static/uploads'
 ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png', 'gif'}
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -85,6 +90,23 @@ def profile():
 
     return render_template('profile.html', profile=ADMIN_PROFILE)
 
+class TenantApplication(db.Model):
+    __tablename__ = 'tenant_applications'  # Correct table name
+    id = db.Column(db.Integer, primary_key=True)
+    employment_history = db.Column(db.String(255))
+    income = db.Column(db.Numeric(10, 2))
+    rental_history = db.Column(db.String(255))
+    credit_score = db.Column(db.Integer)
+    payment_history = db.Column(db.String(255))
+    outstanding_debts = db.Column(db.Numeric(10, 2))
+    criminal_records = db.Column(db.String(255))
+    legal_issues = db.Column(db.String(255))
+    employment_verification = db.Column(db.String(255))
+    income_verification = db.Column(db.String(255))
+    personal_references = db.Column(db.String(255))
+    professional_references = db.Column(db.String(255))
+    result = db.Column(db.String(50))
+
 @app.route('/model_analysis', methods=['GET', 'POST'])
 def model_analysis():
     if 'username' not in session:
@@ -110,16 +132,42 @@ def model_analysis():
 
         input_df = pd.DataFrame(data)
 
+        # Handle encoding if necessary
         for column in label_encoders:
-            le = label_encoders[column]
-            input_df[column] = le.transform(input_df[column])
+            if column in input_df.columns:
+                le = label_encoders[column]
+                input_df[column] = le.transform(input_df[column])
 
         input_scaled = scaler.transform(input_df)
 
         prediction = model.predict(input_scaled)
         result = "Approved" if prediction[0] == 1 else "Rejected"
 
+        try:
+            new_application = TenantApplication(
+                employment_history=request.form['employment_history'],
+                income=request.form['income'],
+                rental_history=request.form['rental_history'],
+                credit_score=request.form['credit_score'],
+                payment_history=request.form['payment_history'],
+                outstanding_debts=request.form['outstanding_debts'],
+                criminal_records=request.form['criminal_records'],
+                legal_issues=request.form['legal_issues'],
+                employment_verification=request.form['employment_verification'],
+                income_verification=request.form['income_verification'],
+                personal_references=request.form['personal_references'],
+                professional_references=request.form['professional_references'],
+                result=result
+            )
+
+            db.session.add(new_application)
+            db.session.commit()
+        except Exception as e:
+            db.session.rollback()
+            print("Error inserting data:", e)
+
     return render_template('model_analysis.html', result=result)
+
 
 if __name__ == '__main__':
     app.run(debug=True)

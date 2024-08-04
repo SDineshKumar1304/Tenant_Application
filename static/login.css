@@ -1,45 +1,46 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #000000, #333333);
+    background: linear-gradient(135deg, #fafcfc, #feffff);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    color: #ffffff;
+    color: #333;
 }
 
 .login-container {
-    background-color: #000000;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 30px;
     border-radius: 10px;
-    border: 2px solid #d4af37;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border: 2px solid #03a9f4;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     width: 350px;
     text-align: center;
 }
 
 .login-container h2 {
     margin-bottom: 20px;
-    color: #d4af37;
+    color: #03a9f4;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .login-container input[type="text"], 
 .login-container input[type="password"] {
-    width: 100%;
+    width: calc(100% - 30px);
     padding: 15px;
     margin: 10px 0;
-    border: none;
+    border: 1px solid #03a9f4;
     border-radius: 5px;
+    background: #f1f8fe;
+    color: #333;
     box-sizing: border-box;
-    background: #333333;
-    color: #ffffff;
-    border: 1px solid #d4af37;
 }
 
 .login-container input[type="text"]::placeholder,
 .login-container input[type="password"]::placeholder {
-    color: #999999;
+    color: #999;
 }
 
 .password-container {
@@ -52,13 +53,14 @@ body {
     right: 15px;
     transform: translateY(-50%);
     cursor: pointer;
-    color: #d4af37;
+    color: #03a9f4;
 }
 
 .remember-me {
     display: flex;
     align-items: center;
     margin: 15px 0;
+    color: #333;
 }
 
 .remember-me input[type="checkbox"] {
@@ -68,20 +70,22 @@ body {
 .login-container button {
     width: 100%;
     padding: 15px;
-    background-color: #d4af37;
+    background-color: #03a9f4;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    color: #000000;
+    color: #ffffff;
     font-size: 16px;
+    font-weight: 600;
     transition: background-color 0.3s ease;
 }
 
 .login-container button:hover {
-    background-color: #b8860b;
+    background-color: #0288d1;
 }
 
 .error-message {
     color: #e74c3c;
     margin-bottom: 10px;
+    font-weight: 500;
 }
