@@ -4,83 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Model Analysis</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="wrapper">
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <h3>LandLord Dashboard</h3>
+    <div class="container">
+        <h1>Model Analysis</h1>
+        <form action="{{ url_for('model_analysis') }}" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="csv_file">Upload CSV File:</label>
+                <input type="file" class="form-control" id="csv_file" name="csv_file" required>
             </div>
-            <ul class="list-unstyled components">
-                <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
-                <li><a href="{{ url_for('model_analysis') }}">Model Analysis</a></li>
-                <li><a href="#">Tenant</a></li>
-                <li><a href="#">Property Details</a></li>
-                <li><a href="{{ url_for('profile') }}">Profile</a></li>
-                <li><a href="#">Settings</a></li>
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+
+        {% if preview_html %}
+            <h2>CSV Preview:</h2>
+            <div class="table-responsive">
+                {{ preview_html|safe }}
+            </div>
+        {% elif result %}
+            <h2>CSV Preview:</h2>
+            <p>No file uploaded or invalid file type.</p>
+        {% endif %}
+
+        {% if result %}
+            <h2>Prediction Results:</h2>
+            <ul>
+                {% for r in result %}
+                    <li>{{ r }}</li>
+                {% endfor %}
             </ul>
-        </nav>
-
-        <div id="content">
-            <div class="navbar">
-                <div class="navbar-brand">LandLord</div>
-                <ul class="navbar-nav">
-                    <li><a href="{{ url_for('profile') }}">Profile</a></li>
-                    <li><a href="{{ url_for('logout') }}">Logout</a></li>
-                </ul>
-            </div>
-
-            <div class="container">
-                <h2>Model Analysis</h2>
-                <form action="{{ url_for('model_analysis') }}" method="POST">
-                    <label for="employment_history">Employment History:</label>
-                    <input type="text" id="employment_history" name="employment_history" placeholder="Enter employment history score" required>
-
-                    <label for="income">Income:</label>
-                    <input type="number" id="income" name="income" placeholder="Enter income amount" required>
-
-                    <label for="rental_history">Rental History:</label>
-                    <input type="text" id="rental_history" name="rental_history" placeholder="Enter rental history score" required>
-
-                    <label for="credit_score">Credit Score:</label>
-                    <input type="number" id="credit_score" name="credit_score" placeholder="Enter credit score" required>
-
-                    <label for="payment_history">Payment History:</label>
-                    <input type="text" id="payment_history" name="payment_history" placeholder="Enter payment history score" required>
-
-                    <label for="outstanding_debts">Outstanding Debts:</label>
-                    <input type="number" id="outstanding_debts" name="outstanding_debts" placeholder="Enter outstanding debts amount" required>
-
-                    <label for="criminal_records">Criminal Records:</label>
-                    <input type="text" id="criminal_records" name="criminal_records" placeholder="Enter criminal records score" required>
-
-                    <label for="legal_issues">Legal Issues:</label>
-                    <input type="text" id="legal_issues" name="legal_issues" placeholder="Enter legal issues score" required>
-
-                    <label for="employment_verification">Employment Verification:</label>
-                    <input type="text" id="employment_verification" name="employment_verification" placeholder="Enter employment verification score" required>
-
-                    <label for="income_verification">Income Verification:</label>
-                    <input type="text" id="income_verification" name="income_verification" placeholder="Enter income verification score" required>
-
-                    <label for="personal_references">Personal References:</label>
-                    <input type="text" id="personal_references" name="personal_references" placeholder="Enter personal references score" required>
-
-                    <label for="professional_references">Professional References:</label>
-                    <input type="text" id="professional_references" name="professional_references" placeholder="Enter professional references score" required>
-
-                    <input type="submit" value="Submit">
-                </form>
-
-                {% if result %}
-                <div class="result">
-                    <h3>Result</h3>
-                    <p>{{ result }}</p>
-                </div>
-                {% endif %}
-            </div>
-        </div>
+        {% endif %}
     </div>
 </body>
 </html>

@@ -6,7 +6,7 @@ import pandas as pd
 from flask_sqlalchemy import SQLAlchemy
 import plotly.express as px
 import plotly.io as pio
-
+import traceback
 app = Flask(__name__)
 app.secret_key = 'DK1329'
 
@@ -58,45 +58,51 @@ def login():
 def logout():
     session.pop('username', None)
     return redirect(url_for('login'))
-
 @app.route('/dashboard')
 def dashboard():
     if 'username' not in session:
         return redirect(url_for('login'))
 
-    # Get total tenants count
     total_tenants = TenantApplication.query.count()
     
-    # Get counts of approved and rejected tenants
     approved_count = TenantApplication.query.filter_by(result='Approved').count()
     rejected_count = TenantApplication.query.filter_by(result='Rejected').count()
 
-    # Generate plot for approved vs rejected tenants
     status_counts = {'Approved': approved_count, 'Rejected': rejected_count}
     status_fig = px.bar(x=list(status_counts.keys()), y=list(status_counts.values()), title='Approved vs Rejected Tenants', labels={'x': 'Status', 'y': 'Count'})
     status_plot = pio.to_html(status_fig, full_html=False)
 
-    # Get tenant data
     tenants = TenantApplication.query.all()
-    tenant_data = [{
-        'id': tenant.id,
-        'employment_history': tenant.employment_history,
-        'income': tenant.income,
-        'rental_history': tenant.rental_history,
-        'credit_score': tenant.credit_score,
-        'payment_history': tenant.payment_history,
-        'outstanding_debts': tenant.outstanding_debts,
-        'criminal_records': tenant.criminal_records,
-        'legal_issues': tenant.legal_issues,
-        'employment_verification': tenant.employment_verification,
-        'income_verification': tenant.income_verification,
-        'personal_references': tenant.personal_references,
-        'professional_references': tenant.professional_references,
-        'result': tenant.result
-    } for tenant in tenants]
+    tenant_data = []
+
+    for tenant in tenants:
+        decoded_tenant = {
+            'id': tenant.id,
+            'employment_history': tenant.employment_history,
+            'income': tenant.income,
+            'rental_history': tenant.rental_history,
+            'credit_score': tenant.credit_score,
+            'payment_history': tenant.payment_history,
+            'outstanding_debts': tenant.outstanding_debts,
+            'criminal_records': tenant.criminal_records,
+            'legal_issues': tenant.legal_issues,
+            'employment_verification': tenant.employment_verification,
+            'income_verification': tenant.income_verification,
+            'personal_references': tenant.personal_references,
+            'professional_references': tenant.professional_references,
+            'result': tenant.result
+        }
+
+        for column, le in label_encoders.items():
+            if column in decoded_tenant:
+                try:
+                    decoded_tenant[column] = le.inverse_transform([decoded_tenant[column]])[0]
+                except Exception as e:
+                    print(f"Error decoding {column}: {e}")
+
+        tenant_data.append(decoded_tenant)
 
     return render_template('dashboard.html', total_tenants=total_tenants, status_plot=status_plot, tenant_data=tenant_data)
-
 
 
 @app.route('/profile', methods=['GET', 'POST'])
@@ -149,76 +155,77 @@ def model_analysis():
         return redirect(url_for('login'))
 
     result = None
+    preview_html = None  # Initialize preview_html to avoid UnboundLocalError
 
     if request.method == 'POST':
-        data = {
-            'Employment History': [request.form['employment_history']],
-            'Income': [request.form['income']],
-            'Rental History': [request.form['rental_history']],
-            'Credit Score': [request.form['credit_score']],
-            'Payment History': [request.form['payment_history']],
-            'Outstanding Debts': [request.form['outstanding_debts']],
-            'Criminal Records': [request.form['criminal_records']],
-            'Legal Issues': [request.form['legal_issues']],
-            'Employment Verification': [request.form['employment_verification']],
-            'Income Verification': [request.form['income_verification']],
-            'Personal References': [request.form['personal_references']],
-            'Professional References': [request.form['professional_references']]
-        }
+        if 'csv_file' not in request.files:
+            flash('No file part')
+            return redirect(request.url)
 
-        input_df = pd.DataFrame(data)
+        file = request.files['csv_file']
+        if file.filename == '':
+            flash('No selected file')
+            return redirect(request.url)
 
-        # Handle encoding if necessary
-        for column in label_encoders:
-            if column in input_df.columns:
-                le = label_encoders[column]
-                input_df[column] = le.transform(input_df[column])
+        if file and file.filename.endswith('.csv'):
+            file_path = os.path.join('static/uploads', secure_filename(file.filename))
+            file.save(file_path)
+            
+            # Read the CSV file into a DataFrame
+            preview_df = pd.read_csv(file_path)
+            # Display the first few rows for preview
+            preview_html = preview_df.head().to_html(classes='table table-striped')
 
-        input_scaled = scaler.transform(input_df)
+            # Handle encoding if necessary
+            for column in label_encoders:
+                if column in preview_df.columns:
+                    le = label_encoders[column]
+                    preview_df[column] = le.transform(preview_df[column])
 
-        prediction = model.predict(input_scaled)
-        result = "Approved" if prediction[0] == 1 else "Rejected"
+            input_scaled = scaler.transform(preview_df)
+            predictions_encoded = model.predict(input_scaled)
+            # Decode the results
+            result = ["Approved" if pred == 1 else "Rejected" for pred in predictions_encoded]
 
-        try:
-            new_application = TenantApplication(
-                employment_history=request.form['employment_history'],
-                income=request.form['income'],
-                rental_history=request.form['rental_history'],
-                credit_score=request.form['credit_score'],
-                payment_history=request.form['payment_history'],
-                outstanding_debts=request.form['outstanding_debts'],
-                criminal_records=request.form['criminal_records'],
-                legal_issues=request.form['legal_issues'],
-                employment_verification=request.form['employment_verification'],
-                income_verification=request.form['income_verification'],
-                personal_references=request.form['personal_references'],
-                professional_references=request.form['professional_references'],
-                result=result
-            )
+            try:
+                # Save results to the database
+                for index, row in preview_df.iterrows():
+                    new_application = TenantApplication(
+                        employment_history=row.get('Employment History'),
+                        income=row.get('Income'),
+                        rental_history=row.get('Rental History'),
+                        credit_score=row.get('Credit Score'),
+                        payment_history=row.get('Payment History'),
+                        outstanding_debts=row.get('Outstanding Debts'),
+                        criminal_records=row.get('Criminal Records'),
+                        legal_issues=row.get('Legal Issues'),
+                        employment_verification=row.get('Employment Verification'),
+                        income_verification=row.get('Income Verification'),
+                        personal_references=row.get('Personal References'),
+                        professional_references=row.get('Professional References'),
+                        result=result[index]  # Save the decoded result
+                    )
+                    db.session.add(new_application)
+                db.session.commit()
+                flash('File successfully processed and results saved.')
+            except Exception as e:
+                db.session.rollback()
+                flash(f'Error saving results: {e}')
+                print("Error inserting data:", e)
 
-            db.session.add(new_application)
-            db.session.commit()
-        except Exception as e:
-            db.session.rollback()
-            print("Error inserting data:", e)
+    return render_template('model_analysis.html', result=result, preview_html=preview_html)
 
-    return render_template('model_analysis.html', result=result)
 @app.route('/analysis')
 def analysis():
-    # Use Flask's database engine
     query = "SELECT * FROM tenant_applications"
-    df = pd.read_sql(query, db.engine)  # Use db.engine instead of create_engine
-
-    # Generate plots
+    df = pd.read_sql(query, db.engine)  
     credit_score_fig = px.histogram(df, x='credit_score', title='Credit Score Distribution')
     income_fig = px.histogram(df, x='income', title='Income Distribution')
 
-    # Count of tenants plot
     total_tenants = df.shape[0]
     count_data = pd.DataFrame({'Category': ['Total Tenants'], 'Count': [total_tenants]})
     count_fig = px.bar(count_data, x='Category', y='Count', title='Total Count of Tenants')
 
-    # Convert figures to HTML
     credit_score_plot = pio.to_html(credit_score_fig, full_html=False)
     income_plot = pio.to_html(income_fig, full_html=False)
     count_plot = pio.to_html(count_fig, full_html=False)
