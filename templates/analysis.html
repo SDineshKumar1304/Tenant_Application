@@ -6,6 +6,7 @@
     <title>Analysis</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -14,13 +15,13 @@
                 <h3>LandLord Dashboard</h3>
             </div>
             <ul class="list-unstyled components">
-                <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
-                <li><a href="{{ url_for('model_analysis') }}">Model Classification</a></li>
-                <li><a href="{{ url_for('analysis') }}">Analysis</a></li>
-                <li><a href="{{ url_for('tenant') }}">Tenant</a></li>
-                <li><a href="#">Property Details</a></li>
-                <li><a href="{{ url_for('profile') }}">Profile</a></li>
-                <li><a href="#">Settings</a></li>
+                <li><a href="{{ url_for('dashboard') }}"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="{{ url_for('model_analysis') }}"><i class="fas fa-chart-line"></i> Model Classification</a></li>
+                <li><a href="{{ url_for('analysis') }}"><i class="fas fa-chart-pie"></i> Analysis</a></li>
+                <li><a href="{{ url_for('tenant') }}"><i class="fas fa-users"></i> Tenant</a></li>
+                <li><a href="#"><i class="fas fa-building"></i> Property Details</a></li>
+                <li><a href="{{ url_for('profile') }}"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
             </ul>
         </nav>
 
