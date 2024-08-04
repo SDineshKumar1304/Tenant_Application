@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analysis</title>
+    <title>Tenant Details</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -33,25 +32,14 @@
                 </ul>
             </div>
             <br>
-            <h2>Data Analysis</h2>
-            <p>Here you can view the analysis of tenant data.</p>
+            <h2>Tenant Details</h2>
 
-            <!-- Total Tenants Plot -->
-            <div class="plot-container">
-                <h3>Total Count of Tenants</h3>
-                {{ count_plot | safe }}
-            </div>
-
-            <!-- Credit Score Plot -->
-            <div class="plot-container">
-                <h3>Credit Score Distribution</h3>
-                {{ credit_score_plot | safe }}
-            </div>
-
-            <!-- Income Plot -->
-            <div class="plot-container">
-                <h3>Income Distribution</h3>
-                {{ income_plot | safe }}
+            <div class="tenant-details">
+                <h3>{{ tenant.name }}</h3>
+                <p><strong>Contact:</strong> {{ tenant.contact }}</p>
+                <p><strong>Profile:</strong> {{ tenant.profile }}</p>
+                <p><strong>Aadhar:</strong> <a href="{{ url_for('static', filename=aadhar_path) }}" target="_blank">View Aadhar</a></p>
+                <p><strong>Income Certificate:</strong> <a href="{{ url_for('static', filename=income_path) }}" target="_blank">View Income Certificate</a></p>
             </div>
         </div>
     </div>

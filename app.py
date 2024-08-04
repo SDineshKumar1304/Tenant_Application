@@ -244,6 +244,48 @@ def create_income_plot(data):
     plot_html = pio.to_html(fig, full_html=False)
     return plot_html
 
+@app.route('/tenant', methods=['GET', 'POST'])
+def tenant():
+    if 'username' not in session:
+        return redirect(url_for('login'))
+    
+    if request.method == 'POST':
+        if 'aadhar' not in request.files or 'income' not in request.files or 'birth_certificate' not in request.files:
+            flash('All documents are required')
+            return redirect(request.url)
+        
+        files = {
+            'aadhar': request.files['aadhar'],
+            'income': request.files['income'],
+            'birth_certificate': request.files['birth_certificate']
+        }
+        
+        # Ensure files are PDFs
+        for file_key, file in files.items():
+            if file and allowed_file(file.filename) and file.filename.endswith('.pdf'):
+                filename = secure_filename(file.filename)
+                file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+                file.save(file_path)
+            else:
+                flash(f'Invalid file type for {file_key}')
+                return redirect(request.url)
+
+        flash('Documents successfully uploaded.')
+        return redirect(url_for('tenant'))
+    
+    return render_template('tenant.html')
+
+@app.route('/tenant/<int:tenant_id>')
+def tenant_details(tenant_id):
+    tenant = TenantApplication.query.get_or_404(tenant_id)
+    
+    # Construct file paths (assuming you store the files with the tenant ID or some identifier)
+    aadhar_path = os.path.join(app.config['UPLOAD_FOLDER'], f'{tenant.id}_aadhar.pdf')
+    income_path = os.path.join(app.config['UPLOAD_FOLDER'], f'{tenant.id}_income.pdf')
+    
+    # Add paths to context
+    return render_template('tenant_details.html', tenant=tenant, aadhar_path=aadhar_path, income_path=income_path)
+
 
 if __name__ == '__main__':
     app.run(debug=True)

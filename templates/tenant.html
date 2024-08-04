@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analysis</title>
+    <title>Tenants</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -33,25 +32,20 @@
                 </ul>
             </div>
             <br>
-            <h2>Data Analysis</h2>
-            <p>Here you can view the analysis of tenant data.</p>
+            <h2>Tenant List</h2>
 
-            <!-- Total Tenants Plot -->
-            <div class="plot-container">
-                <h3>Total Count of Tenants</h3>
-                {{ count_plot | safe }}
-            </div>
-
-            <!-- Credit Score Plot -->
-            <div class="plot-container">
-                <h3>Credit Score Distribution</h3>
-                {{ credit_score_plot | safe }}
-            </div>
-
-            <!-- Income Plot -->
-            <div class="plot-container">
-                <h3>Income Distribution</h3>
-                {{ income_plot | safe }}
+            <div class="tenant-container">
+                {% if tenants %}
+                    {% for tenant in tenants %}
+                        <div class="tenant-item">
+                            <a href="{{ url_for('tenant_details', tenant_id=tenant.id) }}">
+                                <h3>{{ tenant.name }}</h3>
+                            </a>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <p>No tenants found.</p>
+                {% endif %}
             </div>
         </div>
     </div>
