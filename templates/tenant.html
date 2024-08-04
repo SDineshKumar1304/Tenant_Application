@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tenants</title>
+    <title>Tenant Management</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+
 </head>
 <body>
     <div class="wrapper">
@@ -33,19 +34,29 @@
             </div>
             <br>
             <h2>Tenant List</h2>
+            <p>Select a tenant to view details.</p>
 
-            <div class="tenant-container">
-                {% if tenants %}
-                    {% for tenant in tenants %}
-                        <div class="tenant-item">
-                            <a href="{{ url_for('tenant_details', tenant_id=tenant.id) }}">
-                                <h3>{{ tenant.name }}</h3>
-                            </a>
-                        </div>
-                    {% endfor %}
-                {% else %}
-                    <p>No tenants found.</p>
-                {% endif %}
+            <div class="container">
+                <!-- Tenant 1 -->
+                <div class="tenant-card">
+                    <img src="{{ url_for('static', filename='images/Naveen.png') }}" alt="Naveen Kumar N">
+                    <h3>Naveen</h3>
+                    <p><a href="{{ url_for('tenant_details', tenant_id=1) }}">View Details</a></p>
+                </div>
+
+                <!-- Tenant 2 -->
+                <div class="tenant-card">
+                    <img src="{{ url_for('static', filename='images/Dhanush.png') }}" alt="Dhanush S">
+                    <h3>Dhanush S</h3>
+                    <p><a href="{{ url_for('tenant_details', tenant_id=2) }}">View Details</a></p>
+                </div>
+
+                <!-- Tenant 3 -->
+                <div class="tenant-card">
+                    <img src="{{ url_for('static', filename='images/Thejdeep.png') }}" alt="Dwaraka Thejdeep">
+                    <h3>Dwaraka Thejdeep</h3>
+                    <p><a href="{{ url_for('tenant_details', tenant_id=3) }}">View Details</a></p>
+                </div>
             </div>
         </div>
     </div>
