@@ -8,7 +8,8 @@
 </head>
 <body>
     <div class="login-container">
-        <h2> Login</h2>
+        <img src="{{ url_for('static', filename='images/LIRLogo.jpeg') }}" alt="logo">
+        <h2>Login</h2>
         {% with messages = get_flashed_messages() %}
             {% if messages %}
                 <div class="error-message">
