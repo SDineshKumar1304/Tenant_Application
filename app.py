@@ -3,7 +3,6 @@ from werkzeug.utils import secure_filename
 import os
 import joblib
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
 app.secret_key = 'DK1329'
@@ -24,10 +23,11 @@ ADMIN_PROFILE = {
 }
 
 def allowed_file(filename):
-    return '.' in filename and \
-           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-
+model = joblib.load('decision_tree_model.joblib')
+scaler = joblib.load('scaler.joblib')
+label_encoders = joblib.load('label_encoders.joblib')
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
@@ -91,23 +91,34 @@ def model_analysis():
         return redirect(url_for('login'))
 
     result = None
-    # if request.method == 'POST':
-    #     data = {
-    #         'Employment History': [int(request.form['employment_history'])],
-    #         'Income': [int(request.form['income'])],
-    #         'Rental History': [int(request.form['rental_history'])],
-    #         'Credit Score': [int(request.form['credit_score'])],
-    #         'Payment History': [int(request.form['payment_history'])],
-    #         'Outstanding Debts': [int(request.form['outstanding_debts'])],
-    #         'Criminal Records': [int(request.form['criminal_records'])],
-    #         'Legal Issues': [int(request.form['legal_issues'])],
-    #         'Employment Verification': [int(request.form['employment_verification'])],
-    #         'Income Verification': [int(request.form['income_verification'])],
-    #         'Personal References': [int(request.form['personal_references'])],
-    #         'Professional References': [int(request.form['professional_references'])]
-    #     }
 
-    
+    if request.method == 'POST':
+        data = {
+            'Employment History': [request.form['employment_history']],
+            'Income': [request.form['income']],
+            'Rental History': [request.form['rental_history']],
+            'Credit Score': [request.form['credit_score']],
+            'Payment History': [request.form['payment_history']],
+            'Outstanding Debts': [request.form['outstanding_debts']],
+            'Criminal Records': [request.form['criminal_records']],
+            'Legal Issues': [request.form['legal_issues']],
+            'Employment Verification': [request.form['employment_verification']],
+            'Income Verification': [request.form['income_verification']],
+            'Personal References': [request.form['personal_references']],
+            'Professional References': [request.form['professional_references']]
+        }
+
+        input_df = pd.DataFrame(data)
+
+        for column in label_encoders:
+            le = label_encoders[column]
+            input_df[column] = le.transform(input_df[column])
+
+        input_scaled = scaler.transform(input_df)
+
+        prediction = model.predict(input_scaled)
+        result = "Approved" if prediction[0] == 1 else "Rejected"
+
     return render_template('model_analysis.html', result=result)
 
 if __name__ == '__main__':
