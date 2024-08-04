@@ -4,56 +4,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #e9ecef;
+        }
+        #sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: #343a40;
+            color: #ffffff;
+            padding-top: 20px;
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+        #sidebar a {
+            color: #000;
+            font-size: 1rem;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.3s;
+        }
+        #sidebar a i {
+            margin-right: 15px;
+        }
+        #sidebar a.active,
+        #sidebar a:hover {
+            background-color: #495057;
+            font-weight: bold;
+        }
+        #content {
+            margin-left: 250px;
+            padding: 20px;
+            transition: margin-left 0.3s;
+        }
+        .navbar {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            position: fixed;
+            top: 0;
+            width: calc(100% - 250px);
+            z-index: 1000;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .navbar-nav a {
+            color: #ffffff;
+            margin-left: 15px;
+        }
+        .card {
+            border-radius: 0.5rem;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .card-header {
+            background-color: #007bff;
+            color: #ffffff;
+            font-size: 1.25rem;
+            border-bottom: 1px solid #0056b3;
+        }
+        .plot-container {
+            background-color: #ffffff;
+            border-radius: 0.5rem;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            #sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+                padding-top: 0;
+            }
+            #sidebar a {
+                font-size: 0.9rem;
+            }
+            #content {
+                margin-left: 0;
+            }
+            .navbar {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="wrapper">
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <h3>LandLord Dashboard</h3>
-            </div>
-            <ul class="list-unstyled components">
-                <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
-                <li><a href="{{ url_for('model_analysis') }}">Model Classification</a></li>
-                <li><a href="{{ url_for('analysis') }}">Analysis</a></li>
-                <li><a href="{{ url_for('tenant') }}">Tenant</a></li>
-                <li><a href="#">Property Details</a></li>
-                <li><a href="{{ url_for('profile') }}">Profile</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
-        </nav>
+    <nav id="sidebar">
+        <div class="sidebar-header text-center mb-1">
+            <h3>LandLord Dashboard</h3>
+        </div>
+        <ul class="list-unstyled">
+            <li><a href="{{ url_for('dashboard') }}" class="nav-link"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+            <li><a href="{{ url_for('model_analysis') }}" class="nav-link"><i class="fas fa-cogs"></i> Model Classification</a></li>
+            <li><a href="{{ url_for('analysis') }}" class="nav-link active"><i class="fas fa-chart-line"></i> Analysis</a></li>
+            <li><a href="{{ url_for('tenant') }}" class="nav-link"><i class="fas fa-users"></i> Tenant</a></li>
+            <li><a href="#" class="nav-link"><i class="fas fa-home"></i> Property Details</a></li>
+            <li><a href="{{ url_for('profile') }}" class="nav-link"><i class="fas fa-user"></i> Profile</a></li>
+            <li><a href="#" class="nav-link"><i class="fas fa-cog"></i> Settings</a></li>
+        </ul>
+    </nav>
 
-        <div id="content">
-            <div class="navbar">
-                <div class="navbar-brand">LandLord</div>
-                <ul class="navbar-nav">
-                    <li><a href="{{ url_for('profile') }}">Profile</a></li>
-                    <li><a href="{{ url_for('logout') }}">Logout</a></li>
-                </ul>
-            </div>
-            <br>
-            <h2>Data Analysis</h2>
-            <p>Here you can view the analysis of tenant data.</p>
+    <div id="content">
+       
+
+        <div class="container mt-4">
+            <h2 class="mb-4">Data Analysis</h2>
+            <p class="lead">Here you can view the analysis of tenant data.</p>
 
             <!-- Total Tenants Plot -->
-            <div class="plot-container">
-                <h3>Total Count of Tenants</h3>
-                {{ count_plot | safe }}
+            <div class="card">
+                <div class="card-header">
+                    Total Count of Tenants
+                </div>
+                <div class="card-body plot-container">
+                    {{ count_plot | safe }}
+                </div>
             </div>
 
             <!-- Credit Score Plot -->
-            <div class="plot-container">
-                <h3>Credit Score Distribution</h3>
-                {{ credit_score_plot | safe }}
+            <div class="card">
+                <div class="card-header">
+                    Credit Score Distribution
+                </div>
+                <div class="card-body plot-container">
+                    {{ credit_score_plot | safe }}
+                </div>
             </div>
 
             <!-- Income Plot -->
-            <div class="plot-container">
-                <h3>Income Distribution</h3>
-                {{ income_plot | safe }}
+            <div class="card">
+                <div class="card-header">
+                    Income Distribution
+                </div>
+                <div class="card-body plot-container">
+                    {{ income_plot | safe }}
+                </div>
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
