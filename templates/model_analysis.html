@@ -4,37 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Model Analysis</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Model Analysis</h1>
-        <form action="{{ url_for('model_analysis') }}" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="csv_file">Upload CSV File:</label>
-                <input type="file" class="form-control" id="csv_file" name="csv_file" required>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>LandLord Dashboard</h3>
             </div>
-            <button type="submit" class="btn btn-primary">Upload</button>
-        </form>
-
-        {% if preview_html %}
-            <h2>CSV Preview:</h2>
-            <div class="table-responsive">
-                {{ preview_html|safe }}
-            </div>
-        {% elif result %}
-            <h2>CSV Preview:</h2>
-            <p>No file uploaded or invalid file type.</p>
-        {% endif %}
-
-        {% if result %}
-            <h2>Prediction Results:</h2>
-            <ul>
-                {% for r in result %}
-                    <li>{{ r }}</li>
-                {% endfor %}
+            <ul class="list-unstyled components">
+                <li><a href="{{ url_for('dashboard') }}"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="{{ url_for('model_analysis') }}"><i class="fas fa-chart-line"></i> Model Classification</a></li>
+                <li><a href="{{ url_for('analysis') }}"><i class="fas fa-chart-pie"></i> Analysis</a></li>
+                <li><a href="{{ url_for('tenant') }}"><i class="fas fa-users"></i> Tenant</a></li>
+                <li><a href="{{ url_for('property_details') }}"><i class="fas fa-building"></i> Property Details</a></li>
+                <li><a href="{{ url_for('profile') }}"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
             </ul>
-        {% endif %}
+        </nav>
+
+        <div id="content">
+            <div class="navbar">
+                <div class="navbar-brand">LandLord</div>
+                <ul class="navbar-nav">
+                    <li><a href="{{ url_for('profile') }}">Profile</a></li>
+                    <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                </ul>
+            </div>
+            <br>
+            <h1>Model Analysis</h1>
+            <form action="{{ url_for('model_analysis') }}" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="csv_file">Upload CSV File:</label>
+                    <input type="file" class="form-control" id="csv_file" name="csv_file" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </form>
+
+            {% if preview_html %}
+                <h2>CSV Preview:</h2>
+                <div class="table-responsive">
+                    {{ preview_html|safe }}
+                </div>
+            {% elif result %}
+                <h2>CSV Preview:</h2>
+                <p>No file uploaded or invalid file type.</p>
+            {% endif %}
+
+            {% if result %}
+                <h2>Prediction Results:</h2>
+                <ul>
+                    {% for r in result %}
+                        <li>{{ r }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
     </div>
 </body>
 </html>

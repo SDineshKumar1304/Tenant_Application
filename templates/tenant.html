@@ -6,6 +6,7 @@
     <title>Tenant Management</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <div class="wrapper">
@@ -18,7 +19,7 @@
                 <li><a href="{{ url_for('model_analysis') }}"><i class="fas fa-chart-line"></i> Model Classification</a></li>
                 <li><a href="{{ url_for('analysis') }}"><i class="fas fa-chart-pie"></i> Analysis</a></li>
                 <li><a href="{{ url_for('tenant') }}"><i class="fas fa-users"></i> Tenant</a></li>
-                <li><a href="#"><i class="fas fa-building"></i> Property Details</a></li>
+                <li><a href="{{ url_for('property_details') }}"><i class="fas fa-building"></i> Property Details</a></li>
                 <li><a href="{{ url_for('profile') }}"><i class="fas fa-user"></i> Profile</a></li>
                 <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
             </ul>
@@ -33,7 +34,9 @@
                 </ul>
             </div>
             <br>
-            <h2>Tenant List</h2>
+            <h2 class="icon-heading">
+                <i class="fas fa-users"></i> Tenant List
+            </h2>
             <p>Select a tenant to view details.</p>
 
             <div class="container">
@@ -41,21 +44,21 @@
                 <div class="tenant-card">
                     <img src="{{ url_for('static', filename='images/Naveen.png') }}" alt="Naveen Kumar N">
                     <h3>Naveen</h3>
-                    <p><a href="{{ url_for('tenant_details', tenant_id=1) }}">View Details</a></p>
+                    <p><a href="{{ url_for('tenant_details', tenant_id=1) }}"><i class="fas fa-info-circle"></i> View Details</a></p>
                 </div>
 
                 <!-- Tenant 2 -->
                 <div class="tenant-card">
                     <img src="{{ url_for('static', filename='images/Dhanush.png') }}" alt="Dhanush S">
                     <h3>Dhanush S</h3>
-                    <p><a href="{{ url_for('tenant_details', tenant_id=2) }}">View Details</a></p>
+                    <p><a href="{{ url_for('tenant_details', tenant_id=2) }}"><i class="fas fa-info-circle"></i> View Details</a></p>
                 </div>
 
                 <!-- Tenant 3 -->
                 <div class="tenant-card">
                     <img src="{{ url_for('static', filename='images/Thejdeep.png') }}" alt="Dwaraka Thejdeep">
                     <h3>Dwaraka Thejdeep</h3>
-                    <p><a href="{{ url_for('tenant_details', tenant_id=3) }}">View Details</a></p>
+                    <p><a href="{{ url_for('tenant_details', tenant_id=3) }}"><i class="fas fa-info-circle"></i> View Details</a></p>
                 </div>
             </div>
         </div>
