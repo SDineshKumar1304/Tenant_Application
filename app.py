@@ -6,7 +6,7 @@ import pandas as pd
 from flask_sqlalchemy import SQLAlchemy
 import plotly.express as px
 import plotly.io as pio
-import traceback
+
 
 app = Flask(__name__)
 app.secret_key = 'DK1329'
@@ -60,7 +60,6 @@ def login():
 def logout():
     session.pop('username', None)
     return redirect(url_for('login'))
-
 @app.route('/dashboard')
 def dashboard():
     if 'username' not in session:
@@ -72,7 +71,8 @@ def dashboard():
     rejected_count = TenantApplication.query.filter_by(result='Rejected').count()
 
     status_counts = {'Approved': approved_count, 'Rejected': rejected_count}
-    status_fig = px.bar(x=list(status_counts.keys()), y=list(status_counts.values()), title='Approved vs Rejected Tenants', labels={'x': 'Status', 'y': 'Count'})
+    status_fig = px.bar(x=list(status_counts.keys()), y=list(status_counts.values()), title='Approved vs Rejected Tenants', labels={'x': 'Status', 'y': 'Count'}, color_discrete_sequence=['#87CEFA'])
+    status_fig.update_layout(plot_bgcolor='rgba(255, 255, 255, 0.8)', paper_bgcolor='rgba(255, 255, 255, 0.8)', font=dict(color='black'))
     status_plot = pio.to_html(status_fig, full_html=False)
 
     tenants = TenantApplication.query.all()
@@ -136,7 +136,7 @@ def profile():
     return render_template('profile.html', profile=ADMIN_PROFILE)
 
 class TenantApplication(db.Model):
-    __tablename__ = 'tenant_applications'  # Correct table name
+    __tablename__ = 'tenant_applications'  
     id = db.Column(db.Integer, primary_key=True)
     employment_history = db.Column(db.String(255))
     income = db.Column(db.Numeric(10, 2))
@@ -158,7 +158,7 @@ def model_analysis():
         return redirect(url_for('login'))
 
     result = None
-    preview_html = None  # Initialize preview_html to avoid UnboundLocalError
+    preview_html = None  
 
     if request.method == 'POST':
         if 'csv_file' not in request.files:
@@ -174,12 +174,9 @@ def model_analysis():
             file_path = os.path.join('static/uploads', secure_filename(file.filename))
             file.save(file_path)
             
-            # Read the CSV file into a DataFrame
             preview_df = pd.read_csv(file_path)
-            # Display the first few rows for preview
             preview_html = preview_df.head().to_html(classes='table table-striped')
 
-            # Handle encoding if necessary
             for column in label_encoders:
                 if column in preview_df.columns:
                     le = label_encoders[column]
@@ -187,11 +184,11 @@ def model_analysis():
 
             input_scaled = scaler.transform(preview_df)
             predictions_encoded = model.predict(input_scaled)
-            # Decode the results
+
+            
             result = ["Approved" if pred == 1 else "Rejected" for pred in predictions_encoded]
 
             try:
-                # Save results to the database
                 for index, row in preview_df.iterrows():
                     new_application = TenantApplication(
                         employment_history=row.get('Employment History'),
@@ -206,7 +203,7 @@ def model_analysis():
                         income_verification=row.get('Income Verification'),
                         personal_references=row.get('Personal References'),
                         professional_references=row.get('Professional References'),
-                        result=result[index]  # Save the decoded result
+                        result=result[index]  
                     )
                     db.session.add(new_application)
                 db.session.commit()
@@ -222,30 +219,32 @@ def model_analysis():
 def analysis():
     query = "SELECT * FROM tenant_applications"
     df = pd.read_sql(query, db.engine)  
-    credit_score_fig = px.histogram(df, x='credit_score', title='Credit Score Distribution')
-    income_fig = px.histogram(df, x='income', title='Income Distribution')
+    
+    credit_score_plot = create_credit_score_plot(df)
+    income_plot = create_income_plot(df)
 
     total_tenants = df.shape[0]
     count_data = pd.DataFrame({'Category': ['Total Tenants'], 'Count': [total_tenants]})
-    count_fig = px.bar(count_data, x='Category', y='Count', title='Total Count of Tenants')
-
-    credit_score_plot = pio.to_html(credit_score_fig, full_html=False)
-    income_plot = pio.to_html(income_fig, full_html=False)
+    count_fig = px.bar(count_data, x='Category', y='Count', title='Total Count of Tenants', color_discrete_sequence=['#67baf5'])
+    count_fig.update_layout(plot_bgcolor='rgba(255, 255, 255, 0.8)', paper_bgcolor='rgba(255, 255, 255, 0.8)', font=dict(color='black'))
     count_plot = pio.to_html(count_fig, full_html=False)
 
     return render_template('analysis.html', credit_score_plot=credit_score_plot, income_plot=income_plot, count_plot=count_plot)
 
 def create_credit_score_plot(data):
-    fig = px.histogram(data, x='credit_score', title='Credit Score Distribution')
-    fig.update_layout(xaxis_title='Credit Score', yaxis_title='Frequency')
+    fig = px.histogram(data, x='credit_score', title='Credit Score Distribution', color_discrete_sequence=['#67baf5'])
+    fig.update_layout(xaxis_title='Credit Score', yaxis_title='Frequency', plot_bgcolor='rgba(255, 255, 255, 0.8)', paper_bgcolor='rgba(255, 255, 255, 0.8)', font=dict(color='black'))
     plot_html = pio.to_html(fig, full_html=False)
     return plot_html
 
 def create_income_plot(data):
-    fig = px.histogram(data, x='income', title='Income Distribution')
-    fig.update_layout(xaxis_title='Income', yaxis_title='Frequency')
+    fig = px.histogram(data, x='income', title='Income Distribution', color_discrete_sequence=['#67baf5'])
+    fig.update_layout(xaxis_title='Income', yaxis_title='Frequency', plot_bgcolor='rgba(255, 255, 255, 0.8)', paper_bgcolor='rgba(255, 255, 255, 0.8)', font=dict(color='black'))
     plot_html = pio.to_html(fig, full_html=False)
     return plot_html
+
+
+
 @app.route('/tenant', methods=['GET', 'POST'])
 def tenant():
     if 'username' not in session:
@@ -262,7 +261,6 @@ def tenant():
             'birth_certificate': request.files['birth_certificate']
         }
         
-        # Save uploaded files
         for file_key, file in files.items():
             if file and allowed_file(file.filename) and file.filename.endswith('.pdf'):
                 filename = secure_filename(file.filename)
@@ -282,13 +280,45 @@ def tenant():
 def tenant_details(tenant_id):
     tenant = TenantApplication.query.get_or_404(tenant_id)
     
-    # Construct file paths (assuming you store the files with the tenant ID or some identifier)
     aadhar_path = os.path.join(app.config['UPLOAD_FOLDER'], f'{tenant_id}_aadhar.pdf')
     income_path = os.path.join(app.config['UPLOAD_FOLDER'], f'{tenant_id}_income.pdf')
     birth_certificate_path = os.path.join(app.config['UPLOAD_FOLDER'], f'{tenant_id}_birth_certificate.pdf')
     
-    # Add paths to context
     return render_template('tenant_details.html', tenant=tenant, aadhar_path=aadhar_path, income_path=income_path, birth_certificate_path=birth_certificate_path)
+
+@app.route('/property')
+def property_details():
+    properties = [
+        {
+            'address': '123 Main St',
+            'Property_type': '1BHK',
+            'tenant_status': 'Occupied',
+            'rent': '$1200',
+            'contact': '9876543210',
+            'lease_agreement': 'lease_agreement_123_main_st.pdf',
+            'image_url': url_for('static', filename='images/1BHK.png')
+        },
+        {
+            'address': '456 Elm St',
+            'Property_type': '2BHK',
+            'tenant_status': 'Vacant',
+            'rent': '$1500',
+            'contact': '1234567890',
+            'lease_agreement': 'lease_agreement_456_elm_st.pdf',
+            'image_url': url_for('static', filename='images/2BHK.png')
+        },
+        {
+            'address': '789 Oak St',
+            'Property_type': '3BHK',
+            'tenant_status': 'Occupied',
+            'rent': '$1100',
+            'contact': '2345678901',
+            'lease_agreement': 'lease_agreement_789_oak_st.pdf',
+            'image_url': url_for('static', filename='images/3BHK.png')
+        }
+        
+    ]
+    return render_template('property_details.html', properties=properties)
 
 if __name__ == '__main__':
     app.run(debug=True)
