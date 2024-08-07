@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tenant Management</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+    <link rel="stylesheet" href="/static/dashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
@@ -15,12 +16,12 @@
                 <h3>LandLord Dashboard</h3>
             </div>
             <ul class="list-unstyled components">
-                <li><a href="{{ url_for('dashboard') }}"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
-                <li><a href="{{ url_for('model_analysis') }}"><i class="fas fa-chart-line"></i> Model Classification</a></li>
-                <li><a href="{{ url_for('analysis') }}"><i class="fas fa-chart-pie"></i> Analysis</a></li>
-                <li><a href="{{ url_for('tenant') }}"><i class="fas fa-users"></i> Tenant</a></li>
-                <li><a href="{{ url_for('property_details') }}"><i class="fas fa-building"></i> Property Details</a></li>
-                <li><a href="{{ url_for('profile') }}"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="/dashboard"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="/model_analysis"><i class="fas fa-chart-line"></i> Model Classification</a></li>
+                <li><a href="/analysis"><i class="fas fa-chart-pie"></i> Analysis</a></li>
+                <li><a href="/tenant"><i class="fas fa-users"></i> Tenant</a></li>
+                <li><a href="/property"><i class="fas fa-building"></i> Property Details</a></li>
+                <li><a href="/profile"><i class="fas fa-user"></i> Profile</a></li>
                 <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
             </ul>
         </nav>
@@ -29,37 +30,94 @@
             <div class="navbar">
                 <div class="navbar-brand">LandLord</div>
                 <ul class="navbar-nav">
-                    <li><a href="{{ url_for('profile') }}">Profile</a></li>
-                    <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                    <li><a href="/profile">Profile</a></li>
+                    <li><a href="/logout">Logout</a></li>
                 </ul>
             </div>
             <br>
             <h2 class="icon-heading">
                 <i class="fas fa-users"></i> Tenant List
             </h2>
+            <h2 class="icon-heading">
+                Bachelors List
+            </h2>
+
             <p>Select a tenant to view details.</p>
 
             <div class="container">
                 <!-- Tenant 1 -->
                 <div class="tenant-card">
-                    <img src="{{ url_for('static', filename='images/Naveen.png') }}" alt="Naveen Kumar N">
-                    <h3>Naveen</h3>
-                    <p><a href="{{ url_for('tenant_details', tenant_id=1) }}"><i class="fas fa-info-circle"></i> View Details</a></p>
+                    <img src="/static/images/Profession.jpg" alt="Praneth Kumar Reddy">
+                    <h3>Praneth Kumar Reddy</h3>
+                    <p><a href="/tenant/1"><i class="fas fa-info-circle"></i> View Details</a></p>
                 </div>
 
                 <!-- Tenant 2 -->
                 <div class="tenant-card">
-                    <img src="{{ url_for('static', filename='images/Dhanush.png') }}" alt="Dhanush S">
+                    <img src="/static/images/Dhanush.png" alt="Dhanush S">
                     <h3>Dhanush S</h3>
-                    <p><a href="{{ url_for('tenant_details', tenant_id=2) }}"><i class="fas fa-info-circle"></i> View Details</a></p>
+                    <p><a href="/tenant/2"><i class="fas fa-info-circle"></i> View Details</a></p>
                 </div>
 
                 <!-- Tenant 3 -->
                 <div class="tenant-card">
-                    <img src="{{ url_for('static', filename='images/Thejdeep.png') }}" alt="Dwaraka Thejdeep">
+                    <img src="/static/images/Thejdeep.png" alt="Dwaraka Thejdeep">
                     <h3>Dwaraka Thejdeep</h3>
-                    <p><a href="{{ url_for('tenant_details', tenant_id=3) }}"><i class="fas fa-info-circle"></i> View Details</a></p>
+                    <p><a href="/tenant/3"><i class="fas fa-info-circle"></i> View Details</a></p>
                 </div>
+
+            <h2 class="icon-heading">
+                Old Age Members List
+            </h2>
+            </div>
+            <div class="container">
+                <!--Family Tenant 1 -->
+                <div class="tenant-card">
+                    <img src="/static/images/OldAge1.png" alt="Family 1">
+                    <h3>Thillaiambalam Family</h3>
+                    <p><a href="/tenant/1"><i class="fas fa-info-circle"></i> View Details</a></p>
+                </div>
+
+                <!--Family Tenant 2 -->
+                <div class="tenant-card">
+                    <img src="/static/images/OldAge2.png" alt="Family 2">
+                    <h3>Praneth Family</h3>
+                    <p><a href="/tenant/2"><i class="fas fa-info-circle"></i> View Details</a></p>
+                </div>
+
+                <!-- Family Tenant 3 -->
+                <div class="tenant-card">
+                    <img src="/static/images/OldAge3.png" alt="Family 3">
+                    <h3>Pragatheeswaran Family</h3>
+                    <p><a href="/tenant/3"><i class="fas fa-info-circle"></i> View Details</a></p>
+                </div>
+                <h2 class="icon-heading">
+                    Famliy Members List
+                </h2>
+                </div>
+                
+                <div class="container">
+                    <!--Family Tenant 1 -->
+                    <div class="tenant-card">
+                        <img src="/static/images/Family.png" alt="Family 1">
+                        <h3>Dinesh Family</h3>
+                        <p><a href="/tenant/1"><i class="fas fa-info-circle"></i> View Details</a></p>
+                    </div>
+    
+                    <!--Family Tenant 2 -->
+                    <div class="tenant-card">
+                        <img src="/static/images/Family1.png" alt="Family 2">
+                        <h3>Saravanan Family</h3>
+                        <p><a href="/tenant/2"><i class="fas fa-info-circle"></i> View Details</a></p>
+                    </div>
+    
+                    <!-- Family Tenant 3 -->
+                    <div class="tenant-card">
+                        <img src="/static/images/Family3.png" alt="Family 3">
+                        <h3>Nayan Family</h3>
+                        <p><a href="/tenant/3"><i class="fas fa-info-circle"></i> View Details</a></p>
+                    </div>
+                    
             </div>
         </div>
     </div>

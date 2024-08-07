@@ -316,6 +316,7 @@ def property_details():
             'lease_agreement': 'lease_agreement_789_oak_st.pdf',
             'image_url': url_for('static', filename='images/3BHK.png')
         }
+        
     ]
     return render_template('property_details.html', properties=properties)
 

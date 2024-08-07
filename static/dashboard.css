@@ -289,8 +289,8 @@ iframe {
     margin-right: 10px;
 }
 .tenant-details {
-    margin: 20px;
-    padding: 20px;
+    margin: 32px;
+    padding: 19px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
