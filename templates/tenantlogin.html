@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login</title>
+    <title>Tenant Login</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
 </head>
 <body>
     <div class="login-container">
         <img src="{{ url_for('static', filename='images/LIRLogo.jpeg') }}" alt="logo">
-        <h2>Login</h2>
+        <h2>Tenant Login</h2>
         {% with messages = get_flashed_messages() %}
             {% if messages %}
                 <div class="error-message">
@@ -17,7 +17,7 @@
                 </div>
             {% endif %}
         {% endwith %}
-        <form action="{{ url_for('login') }}" method="post">
+        <form action="{{ url_for('tenant_login') }}" method="post">
             <input type="text" name="username" placeholder="Username" required>
             <div class="password-container">
                 <input type="password" id="password" name="password" placeholder="Password" required>
