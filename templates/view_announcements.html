@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Announcements</title>
+</head>
+<body>
+    <h1>Announcements</h1>
+    <ul>
+        {% for announcement in announcements %}
+        <li>{{ announcement.date }}: {{ announcement.announcement }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="{{ url_for('tenant_dashboard') }}">Back to Dashboard</a>
+</body>
+</html>

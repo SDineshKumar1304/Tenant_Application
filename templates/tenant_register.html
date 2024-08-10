@@ -5,70 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tenant Registration</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='register.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Tenant Registration Form</h1>
-        <form action="{{ url_for('register') }}" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-
-            <div class="form-group">
-                <label for="contact_details">Contact Details:</label>
-                <input type="text" id="contact_details" name="contact_details" required>
-            </div>
-
-            <div class="form-group">
-                <label for="employment_history">Employment History:</label>
-                <input type="text" id="employment_history" name="employment_history" required>
-            </div>
-
-            <div class="form-group">
-                <label for="income">Income:</label>
-                <input type="number" id="income" name="income" step="0.01" required>
-            </div>
-
-            <div class="form-group">
-                <label for="rental_history">Rental History:</label>
-                <input type="text" id="rental_history" name="rental_history" required>
-            </div>
-
-            <div class="form-group">
-                <label for="credit_score">Credit Score:</label>
-                <input type="number" id="credit_score" name="credit_score" required>
-            </div>
-
-            <div class="form-group">
-                <label for="aadhar">Aadhar:</label>
-                <input type="file" id="aadhar" name="aadhar" accept=".pdf,.png,.jpg,.jpeg,.gif" required>
-            </div>
-
-            <div class="form-group">
-                <label for="pan">PAN:</label>
-                <input type="file" id="pan" name="pan" accept=".pdf,.png,.jpg,.jpeg,.gif" required>
-            </div>
-
-            <div class="form-group">
-                <label for="income_certificate">Income Certificate:</label>
-                <input type="file" id="income_certificate" name="income_certificate" accept=".pdf,.png,.jpg,.jpeg,.gif" required>
-            </div>
-
-            <button type="submit">Register</button>
-        </form>
-
-        {% with messages = get_flashed_messages() %}
-        {% if messages %}
-        <div class="messages">
-            <ul>
-                {% for message in messages %}
-                <li>{{ message }}</li>
-                {% endfor %}
-            </ul>
+    <div class="form-container">
+        <div class="form-header">
+            <h1>Tenant Registration</h1>
+            <p>Please fill out the form below to register as a tenant.</p>
         </div>
-        {% endif %}
-        {% endwith %}
+        <form action="{{ url_for('register') }}" method="post" enctype="multipart/form-data">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact_details">Contact Details:</label>
+                    <input type="text" id="contact_details" name="contact_details" required>
+                </div>
+            </div>
+
+            <!-- New Row for Gender and Age -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="" disabled selected>Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="18" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="employment_history">Employment History:</label>
+                    <input type="text" id="employment_history" name="employment_history" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="income">Income:</label>
+                    <input type="number" id="income" name="income" step="0.01" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="rental_history">Rental History:</label>
+                    <input type="text" id="rental_history" name="rental_history" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="credit_score">Credit Score:</label>
+                    <input type="number" id="credit_score" name="credit_score" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="aadhar">Aadhar:</label>
+                    <input type="file" id="aadhar" name="aadhar" accept=".pdf,.png,.jpg,.jpeg,.gif" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pan">PAN:</label>
+                    <input type="file" id="pan" name="pan" accept=".pdf,.png,.jpg,.jpeg,.gif" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="income_certificate">Income Certificate:</label>
+                    <input type="file" id="income_certificate" name="income_certificate" accept=".pdf,.png,.jpg,.jpeg,.gif" required>
+                </div>
+            </div>
+
+            <!-- Tenant Type Section -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="tenant_type">Type of Tenant:</label>
+                    <select id="tenant_type" name="tenant_type" required>
+                        <option value="" disabled selected>Select tenant type</option>
+                        <option value="family">Family</option>
+                        <option value="bachelor">Bachelor</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-footer">
+                <button type="submit" class="btn-register">Register</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>

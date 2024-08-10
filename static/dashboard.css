@@ -9,21 +9,26 @@ html, body {
 body {
     background: #f0f2f5;
     color: #333;
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 .wrapper {
     display: flex;
-    height: 260vh; /* Full viewport height */
+    min-height: 100vh; /* Minimum height of the wrapper */
+    overflow: hidden; /* Prevent overflow on the wrapper */
 }
 
 nav#sidebar {
     width: 310px;
     background: #ffffff;
     border-right: 1px solid #e0e0e0;
-    display: flex;
-    flex-direction: column;
     flex-shrink: 0;
-    height: auto; /* Full viewport height */
+    position: fixed; /* Make sidebar fixed */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto; /* Enable vertical scrolling in the sidebar */
+    z-index: 1000; /* Ensure sidebar stays on top */
 }
 
 .sidebar-header {
@@ -40,7 +45,6 @@ ul.list-unstyled {
     padding: 0;
     margin: 0;
     flex: 1; /* Allows the list to take up remaining space */
-    overflow-y: auto; /* Adds scrolling if content overflows */
 }
 
 ul.list-unstyled li {
@@ -65,6 +69,58 @@ ul.list-unstyled li a:hover {
     flex: 1;
     padding: 20px;
     background: #ffffff;
+    margin-left: 310px; /* Offset content to the right of the sidebar */
+    overflow-y: auto; /* Enable vertical scrolling in content */
+    min-height: 100vh; /* Ensure content takes full viewport height */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    nav#sidebar {
+        width: 250px; /* Adjust sidebar width for tablets and small screens */
+    }
+
+    #content {
+        margin-left: 250px; /* Adjust content margin for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    nav#sidebar {
+        width: 100%;
+        height: auto;
+        position: static; /* Sidebar becomes static */
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 20px;
+    }
+
+    #content {
+        margin-left: 0;
+        padding: 10px;
+        overflow-y: visible; /* Remove vertical scroll from content on small screens */
+    }
+}
+
+@media (max-width: 576px) {
+    nav#sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    #content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    ul.list-unstyled li {
+        padding: 10px 15px;
+    }
 }
 
 .navbar {
@@ -116,67 +172,44 @@ form {
     margin: auto;
 }
 
-form label {
-    display: block;
-    margin: 10px 0 5px;
-    font-weight: 500;
-}
-
-form input[type="text"],
-form input[type="number"] {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-form input[type="submit"] {
-    background: #007bff;
-    color: #ffffff;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 4px;
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 8px 9px;
+    font-size: 15px;
+    text-align: center;
     cursor: pointer;
-    font-size: 16px;
-    transition: background 0.3s, transform 0.2s;
+    text-decoration: none;
+    border-radius: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    margin-right: 18px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
 }
 
-form input[type="submit"]:hover {
-    background: #0056b3;
-    transform: translateY(-2px);
+.btn:hover {
+    background-color: #0056b3;
 }
 
-.result {
-    margin-top: 9px;
-    padding: 22px;
-    background: #ffffff;
-    border-radius: 39px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: green;
-}
-
-/* Responsive adjustments */
+/* Responsive adjustments for content */
 @media (max-width: 768px) {
-    .wrapper {
-        flex-direction: column;
-    }
-    
-    nav#sidebar {
-        width: 100%;
-        border-right: none;
-        border-bottom: 1px solid #e0e0e0;
+    form {
+        padding: 20px;
+        max-width: 100%;
     }
 
-    #content {
-        padding: 10px;
-    }
-    
     .navbar {
         padding: 10px;
     }
+    
+    .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
 }
+
 
 .total-tenants {
     background: #f4f4f4;

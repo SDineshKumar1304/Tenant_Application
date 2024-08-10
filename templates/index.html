@@ -1,210 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Rental Management</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-        .header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 15px 190px;
-            background-color: #ffffff;
-            color: #333;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-bottom: 1px solid #e0e0e0;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            box-sizing: border-box;
-        }
-
-        .header .logo img {
-            height: 50px;
-            width: auto;
-            object-fit: contain;
-        }
-
-        .header .title {
-            text-align: center;
-            flex: 1;
-        }
-
-        .header h1 {
-            margin: 0;
-            font-size: 1.6em;
-            font-weight: 700;
-            color: #0043ff;
-            letter-spacing: 0.5px;
-        }
-
-        .header .login-buttons {
-            display: flex;
-            align-items: center;
-        }
-
-        .header .login-button, .header .register-button {
-            margin-left: 10px;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            font-size: 0.9em;
-            font-weight: 500;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-
-        .header .login-button {
-            background-color: #0043ff;
-            color: #ffffff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .header .login-button:hover {
-            background-color: #0033cc;
-            transform: translateY(-2px);
-        }
-
-        .header .register-button {
-            background-color: #00bfae;
-            color: #ffffff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .header .register-button:hover {
-            background-color: #009b8e;
-            transform: translateY(-2px);
-        }
-
-        .header .login-button i, .header .register-button i {
-            margin-right: 8px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-            margin-top: 80px;
-        }
-
-        .about-section {
-            color: #333;
-            padding: 30px;
-            background-color: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .about-section h2 {
-            text-align: center;
-            margin-bottom: 20px;
-            font-size: 2.2em;
-            color: #0043ff;
-        }
-
-        .about-section p {
-            line-height: 1.8;
-            font-size: 1.1em;
-            margin: 0 0 20px 0;
-        }
-
-        .image-gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-
-        .image-card {
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 10px;
-            padding: 10px;
-            max-width: 300px;
-            text-align: center;
-        }
-
-        .image-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        .image-card h3 {
-            margin: 10px 0 5px;
-            font-size: 1.2em;
-            color: #0043ff;
-        }
-
-        .image-card p {
-            margin: 0;
-            color: #666;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
+    <header class="header">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/LIRLogo.jpeg') }}" alt="Home Rental Management Logo">
+        </div>
+        <div class="title">
+            <h1>Home Rental Management</h1>
+        </div>
+        <nav class="login-buttons">
+            <a href="/login?user_type=admin" class="login-button"><i class="fas fa-user-shield"></i> Admin Login</a>
+            <a href="{{ url_for('tenant_login') }}" class="login-button"><i class="fas fa-user"></i> Tenant Login</a>
+            <a href="/tenant_register" class="register-button"><i class="fas fa-user-plus"></i> Register</a>
+        </nav>
+    </header>
 
-<div class="header">
-    <div class="logo">
-        <img src="static/images/LIRLogo.jpeg" alt="Logo">
-    </div>
-    <div class="title">
-        <h1>Home Rental Management</h1>
-    </div>
-    <div class="login-buttons">
-        <a href="/login?user_type=admin" class="login-button"><i class="fas fa-user-shield"></i> Admin Login</a>
-        <a href="/login?user_type=tenant" class="login-button"><i class="fas fa-user"></i> Tenant Login</a>
-        <a href="/tenant_register" class="register-button"><i class="fas fa-user-plus"></i> Register</a>
-    </div>
-</div>
+    <main class="container">
+        <section class="about-section">
+            <h2>About the House</h2>
+            <p>
+                Welcome to our rental property management system. Our house is located in a serene environment, 
+                offering modern amenities and a comfortable living space. The property features spacious rooms, 
+                a well-equipped kitchen, and a beautiful garden area. We aim to provide a hassle-free renting 
+                experience with easy online management for both tenants and landlords.
+            </p>
+            <p>
+                Whether you are looking to rent or manage properties, our platform offers a seamless experience 
+                with secure login options for both tenants and administrators. Join us to find your perfect home 
+                or to manage your property with ease.
+            </p>
+        </section>
 
-<div class="container">
-    <div class="about-section">
-        <h2>About the House</h2>
-        <p>
-            Welcome to our rental property management system. Our house is located in a serene environment, 
-            offering modern amenities and a comfortable living space. The property features spacious rooms, 
-            a well-equipped kitchen, and a beautiful garden area. We aim to provide a hassle-free renting 
-            experience with easy online management for both tenants and landlords.
-        </p>
-        <p>
-            Whether you are looking to rent or manage properties, our platform offers a seamless experience 
-            with secure login options for both tenants and administrators. Join us to find your perfect home 
-            or to manage your property with ease.
-        </p>
-        <div class="image-gallery">
+        <section class="image-gallery">
             <div class="image-card">
-                <img src="static/images/1BHK.png" alt="1BHK">
+                <img src="{{ url_for('static', filename='images/1BHK.png') }}" alt="1BHK">
                 <h3>1BHK</h3>
                 <p>Compact and cozy living space ideal for individuals or small families.</p>
             </div>
             <div class="image-card">
-                <img src="static/images/2BHK.png" alt="2BHK">
+                <img src="{{ url_for('static', filename='images/2BHK.png') }}" alt="2BHK">
                 <h3>2BHK</h3>
                 <p>Spacious and well-designed for small families or couples looking for extra space.</p>
             </div>
             <div class="image-card">
-                <img src="static/images/3BHK.png" alt="3BHK">
+                <img src="{{ url_for('static', filename='images/3BHK.png') }}" alt="3BHK">
                 <h3>3BHK</h3>
                 <p>Generous living area perfect for larger families or those needing additional rooms.</p>
             </div>
-        </div>
-    </div>
-</div>
-
+        </section>
+    </main>
 </body>
+
 </html>

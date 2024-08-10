@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tenant Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ tenant.username }}</h1>
+    
+    <h2>Announcements</h2>
+    <ul>
+        {% for announcement in announcements %}
+        <li>{{ announcement.date }}: {{ announcement.announcement }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Due Amount</h2>
+    <p>Your due amount: ₹{{ due_amount }}</p>
+    
+    <h2>Payment History</h2>
+    <ul>
+        {% for payment in payment_history %}
+        <li>{{ payment.date }}: ₹{{ payment.amount }} - {{ payment.status }}</li>
+        {% endfor %}
+    </ul>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('view_announcements') }}">View Announcements</a></li>
+            <li><a href="{{ url_for('due_amount') }}">View Due Amount</a></li>
+            <li><a href="{{ url_for('payment_history') }}">View Payment History</a></li>
+        </ul>
+    </nav>
+
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>

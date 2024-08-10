@@ -38,23 +38,31 @@
             <h2>Tenant Analysis</h2>
             <p>Here you can view the analysis of tenant data.</p>
 
-            <!-- Total Tenants Plot -->
             <div class="plot-container">
                 <h3><i class="fas fa-users"></i> Total Count of Tenants</h3>
                 {{ count_plot | safe }}
             </div>
-
-            <!-- Credit Score Plot -->
+            
             <div class="plot-container">
                 <h3><i class="fas fa-credit-card"></i> Credit Score Distribution</h3>
                 {{ credit_score_plot | safe }}
             </div>
-
-            <!-- Income Plot -->
+            
             <div class="plot-container">
                 <h3><i class="fas fa-dollar-sign"></i> Income Distribution</h3>
                 {{ income_plot | safe }}
             </div>
+            
+            <div class="plot-container">
+                <h3><i class="fas fa-venus-mars"></i> Gender Distribution</h3>
+                {{ gender_plot | safe }}
+            </div>
+            
+            <div class="plot-container">
+                <h3><i class="fas fa-chart-bar"></i> Age Distribution</h3>
+                {{ age_plot | safe }}
+            </div>
+            
         </div>
     </div>
 </body>

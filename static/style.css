@@ -112,3 +112,212 @@ footer {
 .footer-links a:hover {
     text-decoration: underline;
 }
+
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+            background-color: #ffffff;
+            color: #333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid #e0e0e0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-sizing: border-box;
+        }
+
+        .header .logo img {
+            height: 50px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .header .title {
+            text-align: center;
+            flex: 1;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #0043ff;
+            letter-spacing: 0.5px;
+        }
+
+        .header .login-buttons {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .header .login-button, .header .register-button {
+            margin-left: 10px;
+            margin-top: 5px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+            font-weight: 500;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .header .login-button {
+            background-color: #0043ff;
+            color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .header .login-button:hover {
+            background-color: #0033cc;
+            transform: translateY(-2px);
+        }
+
+        .header .register-button {
+            background-color: #00bfae;
+            color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .header .register-button:hover {
+            background-color: #009b8e;
+            transform: translateY(-2px);
+        }
+
+        .header .login-button i, .header .register-button i {
+            margin-right: 8px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            margin-top: 80px;
+            box-sizing: border-box;
+        }
+
+        .about-section {
+            color: #333;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #0043ff;
+        }
+
+        .about-section p {
+            line-height: 1.8;
+            font-size: 1em;
+            margin: 0 0 20px 0;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 10px;
+            max-width: 300px;
+            text-align: center;
+            flex: 1 1 30%;
+            box-sizing: border-box;
+        }
+
+        .image-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .image-card h3 {
+            margin: 10px 0 5px;
+            font-size: 1.2em;
+            color: #0043ff;
+        }
+
+        .image-card p {
+            margin: 0;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .header .title {
+                text-align: left;
+                margin-top: 10px;
+                width: 100%;
+            }
+
+            .header h1 {
+                font-size: 1.6em;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .about-section h2 {
+                font-size: 1.8em;
+            }
+
+            .about-section p {
+                font-size: 0.9em;
+            }
+
+            .image-card {
+                flex: 1 1 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header .login-buttons {
+                flex-direction: column;
+                width: 100%;
+                align-items: flex-start;
+            }
+
+            .header .login-button, .header .register-button {
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .image-card {
+                flex: 1 1 100%;
+            }
+
+            .about-section h2 {
+                font-size: 1.6em;
+            }
+        }
+    

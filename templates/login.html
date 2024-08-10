@@ -10,13 +10,6 @@
     <div class="login-container">
         <img src="{{ url_for('static', filename='images/LIRLogo.jpeg') }}" alt="logo">
         <h2>Login</h2>
-        {% with messages = get_flashed_messages() %}
-            {% if messages %}
-                <div class="error-message">
-                    {{ messages[0] }}
-                </div>
-            {% endif %}
-        {% endwith %}
         <form action="{{ url_for('login') }}" method="post">
             <input type="text" name="username" placeholder="Username" required>
             <div class="password-container">

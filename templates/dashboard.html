@@ -6,73 +6,75 @@
     <title>LandLord Dashboard</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="wrapper">
-        <nav id="sidebar">
-            <div class="sidebar-header">
+    <div class="wrapper d-flex">
+        <nav id="sidebar" class="bg-white border-end">
+            <div class="sidebar-header text-center bg-primary text-white p-3">
                 <h3>LandLord Dashboard</h3>
             </div>
             <ul class="list-unstyled components">
                 <li>
-                    <a href="{{ url_for('dashboard') }}">
-                        <i class="fas fa-tachometer-alt"></i> Dashboard
+                    <a href="{{ url_for('dashboard') }}" class="d-flex align-items-center p-3">
+                        <i class="fas fa-tachometer-alt me-2"></i> Dashboard
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url_for('model_analysis') }}">
-                        <i class="fas fa-chart-line"></i> Model Classification
+                    <a href="{{ url_for('model_analysis') }}" class="d-flex align-items-center p-3">
+                        <i class="fas fa-chart-line me-2"></i> Model Classification
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url_for('analysis') }}">
-                        <i class="fas fa-chart-pie"></i> Analysis
+                    <a href="{{ url_for('analysis') }}" class="d-flex align-items-center p-3">
+                        <i class="fas fa-chart-pie me-2"></i> Analysis
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url_for('tenant') }}">
-                        <i class="fas fa-users"></i> Tenant
+                    <a href="{{ url_for('tenant') }}" class="d-flex align-items-center p-3">
+                        <i class="fas fa-users me-2"></i> Tenant
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url_for('property_details') }}">
-                        <i class="fas fa-building"></i> Property Details
+                    <a href="{{ url_for('property_details') }}" class="d-flex align-items-center p-3">
+                        <i class="fas fa-building me-2"></i> Property Details
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url_for('profile') }}">
-                        <i class="fas fa-user"></i> Profile
+                    <a href="{{ url_for('profile') }}" class="d-flex align-items-center p-3">
+                        <i class="fas fa-user me-2"></i> Profile
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <i class="fas fa-cog"></i> Settings
+                    <a href="#" class="d-flex align-items-center p-3">
+                        <i class="fas fa-cog me-2"></i> Settings
                     </a>
                 </li>
             </ul>
         </nav>
 
-        <div id="content">
-            <div class="navbar">
+        <div id="content" class="flex-grow-1 p-4">
+            <div class="navbar navbar-expand-lg navbar-light bg-white border-bottom mb-4">
                 <div class="navbar-brand">LandLord</div>
-                <ul class="navbar-nav">
-                    <li><a href="{{ url_for('profile') }}">Profile</a></li>
-                    <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="{{ url_for('profile') }}" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="{{ url_for('logout') }}" class="nav-link">Logout</a></li>
                 </ul>
             </div>
-            <br>
-            <h2 class="icon-heading">
-                <i class="fas fa-tachometer-alt"></i> Welcome to Dashboard
+            <h2 class="icon-heading d-flex align-items-center">
+                <i class="fas fa-tachometer-alt me-2"></i> Welcome to Dashboard
             </h2>
-            <p>Here you can view and manage all analyses related to the Performance and other data.</p>
+            <p>Here you can view and manage all analyses related to Performance and other data.</p>
 
-            <h3 class="icon-heading">
-                <i class="fas fa-users"></i> Total Tenants: {{ total_tenants }}
+            <h3 class="icon-heading d-flex align-items-center">
+                <i class="fas fa-users me-2"></i> Total Tenants: {{ total_tenants }}
             </h3>
 
-            <div>
-                <h3 class="icon-heading">
-                    <i class="fas fa-chart-bar"></i> Tenant Status Distribution
+            <div class="plot-container mt-4">
+                <h3 class="icon-heading d-flex align-items-center">
+                    <i class="fas fa-chart-bar me-2"></i> Tenant Status Distribution
                 </h3>
                 {{ status_plot|safe }}
             </div>

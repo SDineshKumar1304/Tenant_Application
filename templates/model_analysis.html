@@ -30,6 +30,11 @@
                 <ul class="navbar-nav">
                     <li><a href="{{ url_for('profile') }}">Profile</a></li>
                     <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                    <li>
+                        <a href="http://localhost:5000" target="_blank" class="btn btn-secondary mlflow-btn">
+                            View MLflow
+                        </a>
+                    </li>
                 </ul>
             </div>
             <br>
@@ -62,5 +67,13 @@
             {% endif %}
         </div>
     </div>
+
+    <style>
+        .mlflow-btn {
+            display: inline-block;
+            margin-top: -15px;
+            text-align: center;
+        }
+    </style>
 </body>
 </html>

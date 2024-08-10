@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment History</title>
+</head>
+<body>
+    <h1>Payment History</h1>
+    <ul>
+        {% for payment in payment_history %}
+        <li>{{ payment.date }}: ₹{{ payment.amount }} - {{ payment.status }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="{{ url_for('tenant_dashboard') }}">Back to Dashboard</a>
+</body>
+</html>
