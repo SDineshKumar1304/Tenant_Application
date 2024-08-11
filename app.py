@@ -522,16 +522,6 @@ mock_users = {
     'tenant1': {'username': 'tenant1', 'password': 'password1'},
 }
 
-# Mock data for the tenant dashboard
-mock_announcements = [
-    {'date': '2024-08-01', 'announcement': 'Water supply will be cut off on 2024-08-10 for maintenance.'},
-    {'date': '2024-07-28', 'announcement': 'New parking regulations are in effect.'},
-]
-
-mock_payment_history = [
-    {'date': '2024-07-01', 'amount': 10000, 'status': 'Paid'},
-    {'date': '2024-06-01', 'amount': 10000, 'status': 'Paid'},
-]
 
 #**************************************Tenant Dashboard Routing***************************#
 @app.route('/tenant_dashboard')
@@ -539,16 +529,44 @@ def tenant_dashboard():
     if 'username' not in session:
         return redirect(url_for('tenant_login'))
 
-    print(f"Logged in user: {session['username']}")  # Debug statement
+    # Debug statement to check logged-in user
+    print(f"Logged in user: {session['username']}")
+
+    # Mock data for tenants
+    mock_users = {
+        'john_doe': {
+            'name': 'John Doe',
+            'email': 'john.doe@example.com',
+            'phone': '123-456-7890',
+            'apartment': 'A1'
+        },
+        'jane_smith': {
+            'name': 'Jane Smith',
+            'email': 'jane.smith@example.com',
+            'phone': '987-654-3210',
+            'apartment': 'B2'
+        }
+    }
+
+    # Mock announcements and payment history
+    mock_announcements = [
+        "New payment policy effective from next month.",
+        "Upcoming maintenance work on 15th August."
+    ]
+    mock_payment_history = [
+        {"date": "2024-07-01", "amount": 2000},
+        {"date": "2024-08-01", "amount": 3000}
+    ]
 
     tenant = mock_users.get(session['username'], {})
     tenant['announcements'] = mock_announcements
     tenant['payment_history'] = mock_payment_history
     tenant['due_amount'] = 5000
 
+    # Debug statement to check tenant data
+    print("Tenant data:", tenant)
+
     return render_template('tenant_dashboard.html', tenant=tenant)
-
-
 
 #**************************************View Announcements***************************#
 @app.route('/view_announcements')
@@ -585,7 +603,7 @@ def payment_history():
         {"date": "2024-06-01", "amount": 15000, "status": "Paid"},
     ]
     
-    return render_template('payment_history.html', payment_history=payment_history)
+    return render_template('paid_history.html', payment_history=payment_history)
 
 #********************************************Running the Application************************************#
 if __name__ == '__main__':

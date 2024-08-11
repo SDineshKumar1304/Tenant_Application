@@ -2,35 +2,244 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tenant Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Tenant Dashboard{% endblock %}</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            display: flex;
+            flex-direction: row;
+        }
+        .sidebar {
+            width: 260px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-right: 1px solid #e0e0e0;
+            height: 100vh;
+            color: #333333;
+            position: fixed;
+            transition: width 0.3s;
+        }
+        .sidebar h2 {
+            margin-top: 0;
+            font-size: 1.8rem;
+            color: #007bff;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+        .sidebar ul li {
+            margin-bottom: 15px;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333333;
+            font-weight: 600;
+            font-size: 1.1rem;
+            display: block;
+            padding: 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .sidebar ul li a:hover,
+        .sidebar ul li a.active {
+            background-color: #f1f1f1;
+            color: #007bff;
+        }
+        .sidebar ul li a.active {
+            font-weight: bold;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            margin-left: 260px; /* Ensure this matches the sidebar width */
+            background-color: #ffffff;
+            min-height: 100vh;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: margin-left 0.3s;
+        }
+        .content-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .main-content h1, .main-content h2 {
+            color: #333333;
+        }
+        .main-content h1 {
+            font-size: 2.4rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        .main-content h2 {
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        .main-content ul {
+            padding: 0;
+            margin: 0;
+        }
+        .main-content ul li {
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .amount {
+            font-weight: 600;
+            color: #d9534f;
+            font-size: 1.4rem;
+            margin-top: 10px;
+        }
+        .logout {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 1.2rem;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #007bff;
+            transition: background-color 0.3s;
+        }
+        .logout:hover {
+            background-color: #0056b3;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .card ul li {
+            border-bottom: 1px solid #e0e0e0;
+            padding: 12px 0;
+        }
+        .card ul li:last-child {
+            border-bottom: none;
+        }
+        .profile-photo {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .profile-info {
+            margin-bottom: 20px;
+        }
+        .profile-info h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #007bff;
+        }
+        .profile-info p {
+            margin: 5px 0;
+            font-size: 1.1rem;
+        }
+        .request-form {
+            margin-top: 20px;
+        }
+        .request-form textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #e0e0e0;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            resize: vertical;
+        }
+        .request-form button {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .request-form button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 220px;
+            }
+            .main-content {
+                margin-left: 220px;
+            }
+        }
+        @media (max-width: 480px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+                border-right: none;
+            }
+            .main-content {
+                margin-left: 0;
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome, {{ tenant.username }}</h1>
-    
-    <h2>Announcements</h2>
-    <ul>
-        {% for announcement in announcements %}
-        <li>{{ announcement.date }}: {{ announcement.announcement }}</li>
-        {% endfor %}
-    </ul>
-
-    <h2>Due Amount</h2>
-    <p>Your due amount: ₹{{ due_amount }}</p>
-    
-    <h2>Payment History</h2>
-    <ul>
-        {% for payment in payment_history %}
-        <li>{{ payment.date }}: ₹{{ payment.amount }} - {{ payment.status }}</li>
-        {% endfor %}
-    </ul>
-    <nav>
+    <div class="sidebar">
+        <h2>Dashboard</h2>
         <ul>
-            <li><a href="{{ url_for('view_announcements') }}">View Announcements</a></li>
-            <li><a href="{{ url_for('due_amount') }}">View Due Amount</a></li>
-            <li><a href="{{ url_for('payment_history') }}">View Payment History</a></li>
+            <li><a href="{{ url_for('view_announcements') }}" class="{{ 'active' if active_page == 'view_announcements' }}">View Announcements</a></li>
+            <li><a href="{{ url_for('due_amount') }}" class="{{ 'active' if active_page == 'due_amount' }}">View Due Amount</a></li>
+            <li><a href="{{ url_for('payment_history') }}" class="{{ 'active' if active_page == 'payment_history' }}">View Payment History</a></li>
         </ul>
-    </nav>
-
-    <a href="{{ url_for('logout') }}">Logout</a>
+        <a href="{{ url_for('logout') }}" class="logout">Logout</a>
+    </div>
+    <div class="main-content">
+        <div class="content-wrapper">
+            {% block content %}
+            <h1>Welcome to Dashboard</h1>
+            <section class="overview">
+                <h2>Recent Announcements</h2>
+                <ul>
+                    <li>New payment policy effective from next month.</li>
+                    <li>Upcoming maintenance work on 15th August.</li>
+                </ul>
+            </section>
+            <section class="profile">
+                <h2>Your Profile</h2>
+                <div class="profile-info">
+                    <img src="{{ url_for('static', filename='uploads/Dhanush.jpg') }}" alt="Profile Photo" class="profile-photo">
+                    <h3>{{ tenant.name }}</h3>
+                    <p><strong>Email:</strong> example@gmail.com</p>
+                    <p><strong>Phone:</strong> 7946621354</p>
+                </div>
+                <h2>Request Assistance</h2>
+                <form class="request-form">
+                    <textarea rows="4" placeholder="Describe your issue or request..."></textarea>
+                    <button type="submit">Send Request</button>
+                </form>
+            </section>
+            
+            {% endblock %}
+        </div>
+    </div>
 </body>
 </html>

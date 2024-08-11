@@ -2,16 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment History</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2rem;
+            color: #007bff;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 600;
+            border: 1px solid #007bff;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        a:hover {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+    </style>
 </head>
 <body>
-    <h1>Payment History</h1>
-    <ul>
-        {% for payment in payment_history %}
-        <li>{{ payment.date }}: ₹{{ payment.amount }} - {{ payment.status }}</li>
-        {% endfor %}
-    </ul>
-
-    <a href="{{ url_for('tenant_dashboard') }}">Back to Dashboard</a>
+    <div class="container">
+        <h1>Payment History</h1>
+        <ul>
+            {% for payment in payment_history %}
+            <li>{{ payment.date }}: ₹{{ payment.amount }} - {{ payment.status }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('tenant_dashboard') }}">Back to Dashboard</a>
+    </div>
 </body>
 </html>
