@@ -7704,3 +7704,1061 @@ INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 11:55:55] "[36mGET /static/images/2BHK
 INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 11:55:55] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
 ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
 INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 11:55:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:18] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:18] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:18] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:18] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:21] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:22] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:22] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:22] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:27] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:27] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:36] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:36] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:10:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: Could not build url for endpoint 'view_requests'. Did you mean 'view_announcements' instead?
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:01] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: Could not build url for endpoint 'view_requests'. Did you mean 'view_announcements' instead?
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:01] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:07] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:07] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:28] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:28] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:40] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:41] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:49] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:49] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:12:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: Could not build url for endpoint 'view_requests'. Did you mean 'view_announcements' instead?
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:13:33] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:13:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: Could not build url for endpoint 'view_requests'. Did you mean 'view_announcements' instead?
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:13:33] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:13:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:13:58] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:13:58] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:13:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:14:07] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:14:07] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:14:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:14:47] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:14:47] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:14:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:14:47] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:14:47] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:14:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:11] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:11] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:11] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:11] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:11] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:11] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:44] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:44] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:45] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:45] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:47] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:47] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:49] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:49] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:51] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:51] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:15:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:16] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:16] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:19] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:19] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:19] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:19] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:19] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:19] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:19] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:19] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:20] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:20] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:20] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:44] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:44] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:44] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:44] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:44] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:44] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:44] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:44] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:44] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:44] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:44] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:47] "GET /property HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:47] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:47] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:47] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:47] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:17:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:21] "GET /property HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:21] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:21] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:21] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:21] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:23] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:23] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:23] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:50] "GET /profile HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:50] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:50] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:51] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:51] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:51] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:51] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:51] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:55] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:55] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:55] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:18:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:20:37] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:20:37] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:20:37] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:20:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:20:37] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:20:37] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:20:37] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:20:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:25] "GET /profile HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:25] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:25] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:25] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:25] "GET /profile HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:25] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:25] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:25] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:27] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:27] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:27] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:28] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:28] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:28] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:29] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:29] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:29] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:30] "GET /profile HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:30] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:30] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: Could not build url for endpoint 'view_requests'. Did you mean 'view_announcements' instead?
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:32] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: Could not build url for endpoint 'view_requests'. Did you mean 'view_announcements' instead?
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:34] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: Could not build url for endpoint 'view_requests'. Did you mean 'view_announcements' instead?
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:34] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:44] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:44] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: Could not build url for endpoint 'view_requests'. Did you mean 'view_announcements' instead?
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:52] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: Could not build url for endpoint 'view_requests'. Did you mean 'view_announcements' instead?
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:53] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:21:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:22:06] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:22:06] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:22:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\globals.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\wrappers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\helpers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\sessions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask_sqlalchemy\\extension.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\plotly\\express\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\plotly\\io\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\security.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\datetime.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\event\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\util\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\util\\_collections.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\util\\_py_collections.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\util\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\event\\registry.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\visitors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\inspection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask_sqlalchemy\\query.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\orm\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\orm\\query.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\selectable.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\folium\\vector_layers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\fontTools\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\fontTools\\misc\\loggingTools.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\fqdn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\fsspec\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\fsspec\\callbacks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\fsspec\\compression.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\fsspec\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\fsspec\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\fsspec\\mapping.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\fsspec\\registry.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\fsspec\\spec.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\functorch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\future\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gast\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gensim\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\geocoder\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\geographiclib\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\geopy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\geopy\\geocoders\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\exc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\objects\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\objects\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\objects\\blob.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\objects\\commit.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\objects\\submodule\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\objects\\submodule\\root.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\objects\\tag.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\objects\\tree.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\refs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\refs\\symbolic.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\refs\\reference.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\refs\\head.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\refs\\tag.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\refs\\remote.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\refs\\log.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\diff.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\db.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\remote.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\index\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\index\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\index\\typ.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gitdb\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gitdb\\exc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\objects\\submodule\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gitdb\\db\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gitdb\\db\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gitdb\\db\\loose.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gitdb\\db\\mem.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gitdb\\db\\pack.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gitdb\\db\\git.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gitdb\\db\\ref.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\cmd.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\repo\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\repo\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\git\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\gitdb\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\glob2\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\googleapiclient\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\googlesearch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\google_auth_oauthlib\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\google_auth_oauthlib\\interactive.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\relay\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\relay\\id_type.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\relay\\mutation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\relay\\connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\relay\\node.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\scalars.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\uuid.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\argument.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\base64.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\datetime.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\decimal.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\dynamic.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\enum.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\field.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\inputfield.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\inputobjecttype.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\interface.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\json.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\structures.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\mutation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\objecttype.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\type\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\type\\definition.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\types\\union.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\utils\\module_loading.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphene\\utils\\resolve_only_args.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\pyutils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\pyutils\\undefined.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\error\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\error\\graphql_error.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\error\\syntax_error.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\error\\located_error.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\source.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\location.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\print_location.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\lexer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\token_kind.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\parser.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\printer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\visitor.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\directive_locations.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\predicates.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\language\\ast.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\get_introspection_query.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\get_operation_ast.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\get_operation_root_type.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\introspection_from_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\build_client_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\build_ast_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\extend_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\lexicographic_sort_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\print_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\type_from_ast.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\ast_to_dict.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\value_from_ast.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\value_from_ast_untyped.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\ast_from_value.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\type_info.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\coerce_input_value.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\concat_ast.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\separate_operations.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\strip_ignored_characters.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\type_comparators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\assert_valid_name.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\utilities\\find_breaking_changes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\type\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\type\\directives.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\type\\scalars.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\type\\introspection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\type\\validate.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\type\\assert_name.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\pyutils\\path.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\validate.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\validation_context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\specified_rules.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\executable_definitions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\fields_on_correct_type.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\fragments_on_composite_types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\known_argument_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\known_directives.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\known_fragment_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\known_type_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\lone_anonymous_operation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\no_fragment_cycles.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\no_undefined_variables.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\no_unused_fragments.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\no_unused_variables.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\overlapping_fields_can_be_merged.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\possible_fragment_spreads.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\provided_required_arguments.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\scalar_leafs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\single_field_subscriptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_argument_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_directives_per_location.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_fragment_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_input_field_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_operation_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_variable_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\values_of_correct_type.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\variables_are_input_types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\variables_in_allowed_position.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\lone_schema_definition.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_operation_types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_type_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_enum_value_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_field_definition_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_argument_definition_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\unique_directive_names.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\possible_type_extensions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\custom\\no_deprecated.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\validation\\rules\\custom\\no_schema_introspection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\execution\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\execution\\execute.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\execution\\values.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\execution\\subscribe.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\execution\\map_async_iterator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\execution\\middleware.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql\\graphql.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql_relay\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql_relay\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql_relay\\connection\\connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql_relay\\connection\\array_connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql_relay\\mutation\\mutation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql_relay\\node\\node.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\graphql_relay\\node\\plural.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\grpc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\grpc\\_runtime_protos.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\grpc_status\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h11\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h11\\_connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h11\\_events.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h11\\_state.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h11\\_util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h5py\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\annotation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\chart.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\geom.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\chart3d.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\graphs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\path.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\raster.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\sankey.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\stats.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\tabular.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\tiles.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\interfaces.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\http2.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\http11.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\http_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\socks_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_backends\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_backends\\mock.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_backends\\sync.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_models.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_ssl.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\interfaces.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\connection_pool.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\http2.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\http11.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\http_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\socks_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httptools\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httptools\\parser\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httptools\\parser\\errors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\__version__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_auth.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_content.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_models.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_status_codes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\asgi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\default.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\mock.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\wsgi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_urls.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\huggingface_hub\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\hvplot\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\hyperlink\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\hyperlink\\_url.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\idna\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\idna\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\idna\\intranges.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imagecodecs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imagecodecs\\imagecodecs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imageio\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imagesize\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imagesize\\imagesize.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imblearn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imblearn\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imblearn\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imdb\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imdb\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_metadata\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_metadata\\_meta.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_resources\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_resources\\_common.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_resources\\functional.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_resources\\abc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\incremental\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\incremental\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\inflection\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\intake\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\intervaltree\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ipykernel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ipykernel\\connect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_client\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_client\\connect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_client\\launcher.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ipython_genutils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ipywidgets\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isoduration\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isoduration\\formatter\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isoduration\\formatter\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isoduration\\parser\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isoduration\\parser\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isort\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isort\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isort\\api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isort\\place.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isort\\settings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itemadapter\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itemloaders\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\encoding.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\exc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\serializer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\signer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\timed.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\url_safe.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jedi\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\bccache.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\runtime.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2_time\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2_time\\jinja2_time.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\memory.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\logger.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\hashing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\parallel.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\_cloudpickle_wrapper.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\json5\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\json5\\lib.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\json5\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jsonschema_specifications\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_plotly\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_pygments\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\handlers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\licenses_app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\translation_utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\workspaces_app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\workspaces_handler.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_widgets\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_console\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_core\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_events\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_events\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_events\\logger.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_events\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_lsp\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server\\base\\call_context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server_fileid\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server_terminals\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server_ydoc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_ydoc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\api_jwk.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\api_jws.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\api_jwt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\jwks_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\keras\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\keyring\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\keyring\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\kiwisolver\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\kubernetes\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_community\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_core\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\_enums.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\chat_models.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\embeddings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\genai_aqa.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\google_vector_store.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\llms.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\character.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\html.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\json.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\konlpy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\latex.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\markdown.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\nltk.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\python.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\sentence_transformers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\spacy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langcodes\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\_expect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\_testing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\_arunner.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\_runner.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\evaluator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\run_helpers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\run_trees.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lazy_loader\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lazy_object_proxy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libarchive\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libfuturize\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libmambapy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libpasteurize\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\linkify_it\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\llvmlite\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lmdb\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lmdb\\cffi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\locket\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lxml\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lz4\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mako\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mammoth\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\markdown_it\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\markdown_it\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\markupsafe\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\decorators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib\\pylab.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib\\tests\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib\\tight_bbox.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib_inline\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdit_py_plugins\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_decode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_encode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_format.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_parse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_url.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\menuinst\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mkl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mkl_fft\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mkl_random\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\config\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\system_metrics\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\_model_registry\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\_tracking_service\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\models\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\models\\evaluation\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\models\\evaluation\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\projects\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\_model_registry\\fluent.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\fluent.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\multimedia.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\utils\\credentials.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\utils\\doctor.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ml_dtypes\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ml_dtypes\\_finfo.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ml_dtypes\\_iinfo.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mpmath\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\msgpack\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mtcnn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\multipledispatch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\murmurhash\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nacl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\namex\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\navigator_updater\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbclassic\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbclient\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbconvert\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\converter.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\notebooknode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\v4\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\v4\\nbbase.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\validator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\json_compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nltk\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\notebook\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\notebook_shim\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\errors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\abstract.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\containers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\iterators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\misc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\npytypes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\scalars.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\function_type.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numbergen\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numexpr\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_extended_precision.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numpydoc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\onedal\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\onnxruntime\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\lib\\_old_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_utils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_utils\\_utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_streaming.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\lib\\azure.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_module_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openid\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\ops.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\registry.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\opt_einsum\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\_impl.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\_util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\overrides\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\overrides\\enforce.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\overrides\\overrides.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\packaging\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\depends.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\cache.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\notebook.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\server.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\state.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\accordion.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\card.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\flex.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\float.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\grid.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\gridstack.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\spacer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\tabs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\pane\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\pane\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\param.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\template\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\template\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\widgets\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\widgets\\widget.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\param\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\parsel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\parso\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\partd\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\past\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pasta\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\gitignore.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\pathspec.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\pattern.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\_meta.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\patsy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdf2docx\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdf2image\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdf2image\\pdf2image.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdfminer\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdfminer3\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\objects.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\encryption.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\outlines.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\image.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\matrix.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\_content_stream.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pip\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\platformdirs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\platformdirs\\api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\platformdirs\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\plotly\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\plotly\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_manager.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_callers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_result.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_hooks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ply\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pooch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\posthog\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\poyo\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\poyo\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\poyo\\parser.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\preshed\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\exposition.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\asgi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\gc_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\metrics.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\metrics_core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\platform_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\process_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\registry.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\application\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\application\\application.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\ansi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\html.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\prompt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:43] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:43] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:46] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:46] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:46] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:46] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:48] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:48] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:48] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:51] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:51] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:57] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:57] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:59] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:27:59] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:03] "GET /property HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:03] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:03] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:03] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:03] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:05] "GET /profile HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:05] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:05] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:06] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:06] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:06] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:09] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:09] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:09] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:09] "GET /profile HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:09] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:09] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:10] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:10] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:10] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:12] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:12] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
