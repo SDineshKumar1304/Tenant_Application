@@ -8762,3 +8762,592 @@ INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:12] "GET /dashboard HTTP/1.1" 200
 INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:12] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
 ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
 INFO:werkzeug:127.0.0.1 - - [11/Aug/2024 12:28:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:39:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:39:21] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:39:21] "GET /static/images/LIRLogo.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:39:21] "GET /static/images/1BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:39:21] "GET /static/images/3BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:39:21] "GET /static/images/2BHK.png HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:39:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:39:46] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:39:46] "GET /static/login.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:39:47] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:39:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\logging\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\datetime.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:40:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:40:28] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:40:28] "GET /static/dashboard.css HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:40:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:40:34] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:40:34] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:40:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:01] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:01] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:01] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:01] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:28] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:28] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:28] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:59] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:41:59] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 16:42:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.193.51:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:52] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:52] "GET /static/images/LIRLogo.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:52] "GET /static/images/1BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:52] "GET /static/images/2BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:52] "GET /static/images/3BHK.png HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:53] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:54] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:54] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:54] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:55] "[32mGET /login?user_type=admin HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:58] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:13:59] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\plotly\\io\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\security.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:14:47] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:14:49] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:14:49] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:14:59] "[32mGET /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:14:59] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:14:59] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:11] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:12] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:12] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\globals.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\wrappers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\helpers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\sessions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask_sqlalchemy\\extension.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\plotly\\express\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\event\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\util\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\util\\_collections.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\util\\_py_collections.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\util\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\event\\registry.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\visitors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\inspection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask_sqlalchemy\\query.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\orm\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\orm\\query.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\selectable.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\sql\\annotation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\log.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\util\\langhelpers.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\api_jwk.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\api_jws.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\api_jwt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\jwks_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\keras\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\keyring\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\keyring\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\kiwisolver\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\kubernetes\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_community\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_core\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\_enums.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\chat_models.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\embeddings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\genai_aqa.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\google_vector_store.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\llms.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\character.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\html.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\json.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\konlpy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\latex.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\markdown.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\nltk.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\python.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\sentence_transformers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\spacy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langcodes\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\_expect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\_testing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\_arunner.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\_runner.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\evaluator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\run_helpers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\run_trees.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lazy_loader\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lazy_object_proxy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libarchive\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libfuturize\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libmambapy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libpasteurize\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\linkify_it\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\llvmlite\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lmdb\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lmdb\\cffi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\locket\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lxml\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lz4\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mako\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mammoth\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\markdown_it\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\markdown_it\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\markupsafe\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\decorators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib\\pylab.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib\\tests\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib\\tight_bbox.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib_inline\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdit_py_plugins\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_decode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_encode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_format.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_parse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_url.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\menuinst\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mkl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mkl_fft\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mkl_random\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\config\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\system_metrics\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\_model_registry\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\_tracking_service\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\models\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\models\\evaluation\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\models\\evaluation\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\projects\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\_model_registry\\fluent.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\fluent.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\multimedia.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\utils\\credentials.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\utils\\doctor.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ml_dtypes\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ml_dtypes\\_finfo.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ml_dtypes\\_iinfo.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mpmath\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\msgpack\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mtcnn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\multipledispatch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\murmurhash\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nacl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\namex\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\navigator_updater\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbclassic\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbclient\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbconvert\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\converter.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\notebooknode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\v4\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\v4\\nbbase.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\validator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\json_compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nltk\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\notebook\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\notebook_shim\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\errors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\abstract.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\containers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\iterators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\misc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\npytypes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\scalars.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\function_type.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numbergen\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numexpr\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_extended_precision.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numpydoc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\onedal\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\onnxruntime\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\lib\\_old_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_utils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_utils\\_utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_streaming.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\lib\\azure.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_module_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openid\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\ops.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\registry.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\opt_einsum\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\_impl.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\_util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\overrides\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\overrides\\enforce.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\overrides\\overrides.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\packaging\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\depends.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\cache.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\notebook.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\server.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\state.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\accordion.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\card.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\flex.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\float.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\grid.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\gridstack.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\spacer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\tabs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\pane\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\pane\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\param.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\template\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\template\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\widgets\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\widgets\\widget.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\param\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\parsel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\parso\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\partd\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\past\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pasta\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\gitignore.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\pathspec.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\pattern.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\_meta.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\patsy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdf2docx\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdf2image\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdf2image\\pdf2image.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdfminer\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdfminer3\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\objects.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\encryption.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\outlines.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\image.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\matrix.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\_content_stream.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pip\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\platformdirs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\platformdirs\\api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\platformdirs\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\plotly\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\plotly\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_manager.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_callers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_result.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_hooks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ply\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pooch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\posthog\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\poyo\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\poyo\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\poyo\\parser.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\preshed\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\exposition.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\asgi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\gc_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\metrics.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\metrics_core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\platform_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\process_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\registry.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\application\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\application\\application.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\ansi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\html.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\prompt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\enums.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\fields.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\marshal\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\marshal\\marshal.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\message.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\modules.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ptyprocess\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pure_eval\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyarrow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyasn1_modules\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pycparser\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyct\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\errors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\networks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\deprecated\\tools.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic_core\\core_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\_internal\\_generate_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\aliases.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\annotated_handlers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\fields.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\functional_serializers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\functional_validators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\json_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\type_adapter.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\validate_call_decorator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\warnings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\deprecated\\class_validators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\deprecated\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\root_model.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic_core\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydeck\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydispatch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydocstyle\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pylint\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pylint\\__pkginfo__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pylsp\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pylsp\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pylsp_jsonrpc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyls_spyder\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyparsing\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyparsing\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyparsing\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyparsing\\actions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyparsing\\results.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyparsing\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyparsing\\helpers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyparsing\\unicode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\_doc_common.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\_encryption.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\_merger.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\_page.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\_text_extraction\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\_reader.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\_writer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\constants.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\pagerange.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypdf\\papersizes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\PyPDF2\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\PyPDF2\\_encryption.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\PyPDF2\\_merger.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\PyPDF2\\_page.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\PyPDF2\\_reader.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\PyPDF2\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\PyPDF2\\_writer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\PyPDF2\\pagerange.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\PyPDF2\\papersizes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pypika\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyproject_hooks\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyproject_hooks\\_impl.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\PyQt5\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyreadline3\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyresparser\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyresparser\\resume_parser.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pytest\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\_code\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\_code\\code.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\assertion\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\capture.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\config\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\config\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\config\\argparsing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\doctest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\fixtures.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\freeze_support.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\legacypath.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\logging.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\mark\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\mark\\structures.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\monkeypatch.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\nodes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\outcomes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\pytester.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\python.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\python_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\recwarn.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\reports.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\runner.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\stash.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\terminal.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\tmpdir.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\_pytest\\warning_types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pytoolconfig\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pytoolconfig\\fields.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pytoolconfig\\pytoolconfig.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pytoolconfig\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyttsx3\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyviz_comms\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pywt\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pywt\\_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pywt\\_multilevel.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pywt\\_multidim.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pywt\\_thresholding.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pywt\\_wavelet_packets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pywt\\_dwt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pywt\\_swt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pywt\\_cwt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pywt\\_mra.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\qdarkstyle\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\qstylizer\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\qtawesome\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\qtconsole\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\qtpy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\queuelib\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ratelim\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\referencing\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\referencing\\_core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\repo_cli\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\adapters\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\adapters\\ssl.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\adapters\\source.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\auth\\guess.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\multipart\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\multipart\\encoder.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\multipart\\decoder.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\streaming_iterator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\requests_toolbelt\\utils\\user_agent.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\rest_framework\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\rest_framework_simplejwt\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\rich\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\rope\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\rsa\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\rsa\\key.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\rsa\\pkcs1.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\rtree\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ruamel_yaml\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\s3fs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\s3transfer\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sacremoses\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\scipy\\conftest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\scipy\\constants\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\scipy\\constants\\_codata.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:54] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:55] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:55] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:55] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:56] "[32mGET /login?user_type=admin HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:57] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:15:58] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:16:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:16:28] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:16:29] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:16:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:19:30] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:19:30] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2024 21:19:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
