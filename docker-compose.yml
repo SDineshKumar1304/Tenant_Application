@@ -4,26 +4,33 @@ services:
   web:
     build: .
     ports:
-      - "5000:5000"
-    environment:
-      - FLASK_APP=app
-      - FLASK_ENV=development
-      - SQLALCHEMY_DATABASE_URI=mysql+mysqlconnector://root:root@db/Tenant
+      - "8000:8000"
     volumes:
       - .:/app
     depends_on:
       - db
-    command: gunicorn -b 0.0.0.0:5000 app:app
+    command: gunicorn -w 4 -b 0.0.0.0:8000 app:app
+    networks:
+      - app-network
 
   db:
     image: mysql:5.7
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: Tenant
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=Tenant
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+      - innodb_force_recovery=4
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - mysql_data:/var/lib/mysql
+    networks:
+      - app-network
 
 volumes:
   mysql_data:
+
+networks:
+  app-network:
+    driver: bridge
