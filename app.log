@@ -10795,3 +10795,1408 @@ INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 18:05:00] "[36mGET /static/images/1BHK
 INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 18:05:00] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 18:05:00] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 18:05:00] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.193.51:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:40] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:40] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:40] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:40] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:43] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:44] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:44] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:47] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:47] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:58] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:38:58] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:01] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:01] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:05] "GET /property HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:05] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:05] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:06] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:06] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:08] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:08] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:08] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:08] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:08] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:08] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:08] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:08] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:09] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:09] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:09] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:12] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:12] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:15] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:15] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:15] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:15] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:18] "GET /tenant_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:39:18] "GET /static/register.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:46] "[32mPOST /tenant_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:46] "GET /registration_success HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:48] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:48] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:48] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:48] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:51] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:51] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:51] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:51] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:47:52] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:53] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:53] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:53] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:53] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:53] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:56] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:56] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:56] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:58] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:48:58] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:13] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:13] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:15] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:16] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:31] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:32] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:32] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:32] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:32] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:32] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:32] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:32] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:32] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:32] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:32] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:37] "GET /tenant/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:37] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:37] "[36mGET /static/aadhar_path.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:38] "[36mGET /static/PAN.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:38] "[36mGET /static/income.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:44] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:44] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:44] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:44] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:44] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:44] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:44] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:44] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:44] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:44] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:44] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:46] "GET /property HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:47] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:47] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:47] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:47] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:49] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:50] "GET /static/profile.css HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:49:50] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:00] "[32mPOST /profile HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:00] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:00] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:00] "GET /static/uploads/Dhanush.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:04] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:04] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:04] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:04] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:10] "GET /tenant_login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:10] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:10] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:32] "[32mPOST /tenant_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:32] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:32] "GET /static/uploads/Dhanush.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:42] "GET /view_announcements HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:43] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:44] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:46] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:46] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:46] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:46] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:49] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:49] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:49] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:49] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:49] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:55] "GET /tenant_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:55] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:59] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:59] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:59] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:50:59] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:00] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:47] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:47] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:47] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:47] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:47] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:53] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:53] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:53] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:53] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:54] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:54] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:54] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:54] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:54] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 20:51:55] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\sqlalchemy\\schema.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.193.51:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 21:08:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 21:08:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 21:08:19] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 21:08:19] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 21:08:19] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 21:08:19] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 21:08:19] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\warnings.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.193.51:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\grpc\\_runtime_protos.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\grpc_status\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h11\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h11\\_connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h11\\_events.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h11\\_state.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h11\\_util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\h5py\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\annotation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\chart.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\geom.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\chart3d.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\graphs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\path.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\raster.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\sankey.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\stats.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\tabular.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\holoviews\\element\\tiles.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\interfaces.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\http2.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\http11.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\http_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_async\\socks_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_backends\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_backends\\mock.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_backends\\sync.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_models.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_ssl.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\interfaces.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\connection_pool.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\http2.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\http11.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\connection.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\http_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpcore\\_sync\\socks_proxy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httptools\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httptools\\parser\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httptools\\parser\\errors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\__version__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_auth.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_content.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_models.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_status_codes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\asgi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\default.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\mock.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_transports\\wsgi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\httpx\\_urls.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\huggingface_hub\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\hvplot\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\hyperlink\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\hyperlink\\_url.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\idna\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\idna\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\idna\\intranges.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imagecodecs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imagecodecs\\imagecodecs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imageio\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imagesize\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imagesize\\imagesize.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imblearn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imblearn\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imblearn\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imdb\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\imdb\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_metadata\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_metadata\\_meta.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_resources\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_resources\\_common.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_resources\\functional.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\importlib_resources\\abc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\incremental\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\incremental\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\inflection\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\intake\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\intervaltree\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ipykernel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ipykernel\\connect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_client\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_client\\connect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_client\\launcher.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ipython_genutils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ipywidgets\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isoduration\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isoduration\\formatter\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isoduration\\formatter\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isoduration\\parser\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isoduration\\parser\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isort\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isort\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isort\\api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isort\\place.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\isort\\settings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itemadapter\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itemloaders\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\encoding.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\exc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\serializer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\signer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\timed.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\itsdangerous\\url_safe.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jedi\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\bccache.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\runtime.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2_time\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jinja2_time\\jinja2_time.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\memory.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\logger.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\hashing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\parallel.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\joblib\\_cloudpickle_wrapper.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\json5\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\json5\\lib.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\json5\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jsonschema_specifications\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_plotly\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_pygments\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\handlers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\licenses_app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\translation_utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\workspaces_app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_server\\workspaces_handler.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyterlab_widgets\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_console\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_core\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_events\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_events\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_events\\logger.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_events\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_lsp\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server\\base\\call_context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server_fileid\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server_terminals\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_server_ydoc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jupyter_ydoc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\api_jwk.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\api_jws.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\api_jwt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\jwt\\jwks_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\keras\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\keyring\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\keyring\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\kiwisolver\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\kubernetes\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_community\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_core\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\_enums.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\chat_models.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\embeddings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\genai_aqa.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\google_vector_store.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_google_genai\\llms.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\character.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\html.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\json.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\konlpy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\latex.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\markdown.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\nltk.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\python.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\sentence_transformers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langchain_text_splitters\\spacy.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langcodes\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\_expect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\_testing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\_arunner.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\_runner.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\evaluation\\evaluator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\run_helpers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\run_trees.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\langsmith\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lazy_loader\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lazy_object_proxy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libarchive\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libfuturize\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libmambapy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\libpasteurize\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\linkify_it\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\llvmlite\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lmdb\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lmdb\\cffi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\locket\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lxml\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\lz4\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mako\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mammoth\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\markdown_it\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\markdown_it\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\markupsafe\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\decorators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\marshmallow\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib\\pylab.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib\\tests\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib\\tight_bbox.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\matplotlib_inline\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdit_py_plugins\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_decode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_encode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_format.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_parse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mdurl\\_url.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\menuinst\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mkl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mkl_fft\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mkl_random\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\config\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\system_metrics\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\_model_registry\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\_tracking_service\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\models\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\models\\evaluation\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\models\\evaluation\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\projects\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\_model_registry\\fluent.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\fluent.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\tracking\\multimedia.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\utils\\credentials.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mlflow\\utils\\doctor.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ml_dtypes\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ml_dtypes\\_finfo.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ml_dtypes\\_iinfo.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mpmath\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\msgpack\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\mtcnn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\multipledispatch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\murmurhash\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nacl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\namex\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\navigator_updater\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbclassic\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbclient\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbconvert\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\converter.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\notebooknode.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\v4\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\v4\\nbbase.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\validator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nbformat\\json_compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\nltk\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\notebook\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\notebook_shim\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\errors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\abstract.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\containers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\iterators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\misc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\npytypes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\scalars.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numba\\core\\types\\function_type.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numbergen\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numexpr\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_extended_precision.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\numpydoc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\onedal\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\onnxruntime\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\lib\\_old_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_utils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_utils\\_utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_streaming.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\lib\\azure.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openai\\_module_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\openid\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\ops.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\registry.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\optree\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\opt_einsum\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\_impl.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\_util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\outcome\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\overrides\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\overrides\\enforce.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\overrides\\overrides.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\packaging\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\depends.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\cache.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\notebook.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\server.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\io\\state.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\accordion.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\card.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\flex.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\float.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\grid.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\gridstack.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\spacer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\layout\\tabs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\pane\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\pane\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\param.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\template\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\template\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\widgets\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\panel\\widgets\\widget.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\param\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\parsel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\parso\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\partd\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\past\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pasta\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\gitignore.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\pathspec.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\pattern.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pathspec\\_meta.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\patsy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdf2docx\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdf2image\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdf2image\\pdf2image.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdfminer\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pdfminer3\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\objects.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\encryption.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\outlines.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\image.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\matrix.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pikepdf\\models\\_content_stream.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pip\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\platformdirs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\platformdirs\\api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\platformdirs\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\plotly\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\plotly\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_manager.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_callers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_result.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pluggy\\_hooks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ply\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pooch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\posthog\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\poyo\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\poyo\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\poyo\\parser.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\preshed\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\exposition.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\asgi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\gc_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\metrics.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\metrics_core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\platform_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\process_collector.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prometheus_client\\registry.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\application\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\application\\application.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\ansi.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\html.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\prompt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\enums.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\fields.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\marshal\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\marshal\\marshal.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\message.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\modules.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\proto\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\ptyprocess\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pure_eval\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyarrow\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyasn1_modules\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pycparser\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pyct\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\errors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\networks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\deprecated\\tools.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic_core\\core_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\_internal\\_generate_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\aliases.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\annotated_handlers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\fields.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\functional_serializers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\functional_validators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\json_schema.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\type_adapter.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\validate_call_decorator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\warnings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\deprecated\\class_validators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\deprecated\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\root_model.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic_core\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydeck\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydispatch\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydocstyle\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pylint\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pylint\\__pkginfo__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pylsp\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:04] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:05] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:05] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:05] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:31] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:31] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:31] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:31] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:58] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:58] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:49:58] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:04] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:04] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:04] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:10] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:10] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:10] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:18] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:18] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:20] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:20] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:31] "POST /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:31] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:36] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:36] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:43] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:43] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:55] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:55] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:55] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:55] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:55] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:55] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:55] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:56] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:56] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:56] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:56] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:58] "GET /tenant/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:58] "[36mGET /static/aadhar_path.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:58] "[36mGET /static/income.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:58] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:50:58] "[36mGET /static/PAN.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:03] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:04] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:04] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:04] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:04] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:04] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:04] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:04] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:04] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:04] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:04] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:08] "GET /property HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:08] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:08] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:08] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:08] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:10] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:10] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:10] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:20] "[32mPOST /profile HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:20] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:20] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:20] "GET /static/uploads/Dhanush.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:24] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:24] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:29] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:51:29] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:35] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:35] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:35] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:35] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:37] "GET /tenant_login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:37] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:37] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:40] "[32mPOST /tenant_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:41] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:41] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:47] "GET /view_announcements HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:50] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:50] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:51] "GET /due_amount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:53] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:53] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:54] "GET /payment_history HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:56] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:52:56] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:06] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:06] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:09] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:09] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:09] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:09] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:11] "GET /tenant_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:11] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:53] "[32mPOST /tenant_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:53] "GET /registration_success HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:55] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:55] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:55] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:55] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:57] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:58] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:53:58] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:01] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:02] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:06] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:06] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:06] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:06] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:06] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:06] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:06] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:07] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:07] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:07] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:07] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:08] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:08] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:20] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:20] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:20] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:54:20] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:01] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:01] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:01] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:06] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:06] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:13] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:13] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:14] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:15] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:24] "POST /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:24] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:31] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:31] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:36] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:36] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:45] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:56:45] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:20] "GET /property HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:20] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:20] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:20] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:20] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:23] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:23] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:23] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:23] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:23] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:23] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:23] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:23] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:24] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:24] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:24] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:25] "GET /tenant/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:25] "[36mGET /static/aadhar_path.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:25] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:26] "[36mGET /static/income.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:26] "[36mGET /static/PAN.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:30] "GET /property HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:31] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:31] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:31] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:31] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:31] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:32] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:32] "[36mGET /static/uploads/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:38] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:38] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:38] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:38] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:40] "GET /tenant_login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:40] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:40] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:44] "[32mPOST /tenant_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:44] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:44] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:49] "GET /view_announcements HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:50] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:50] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:52] "GET /due_amount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:54] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:54] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:55] "GET /payment_history HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:57] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:57:57] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:58:11] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:58:11] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:58:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:58:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:58:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:58:14] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:58:14] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:58:14] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:58:14] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:58:16] "GET /tenant_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:58:16] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:59:07] "[32mPOST /tenant_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:59:07] "GET /registration_success HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:59:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:59:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:59:09] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:59:09] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:59:09] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 22:59:09] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:00:54] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:00:54] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:00:54] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:03] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:03] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:14] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:14] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:17] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:17] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:27] "POST /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:27] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:30] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:31] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:36] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:01:36] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:05] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:05] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:20] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:20] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:20] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:20] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:20] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:20] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:20] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:21] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:21] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:21] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:21] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:28] "GET /tenant/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:29] "[36mGET /static/aadhar_path.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:29] "[36mGET /static/income.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:29] "[36mGET /static/PAN.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:29] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:37] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:37] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:40] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:40] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:40] "[36mGET /static/uploads/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:54] "[32mPOST /profile HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:54] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:55] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:02:55] "GET /static/uploads/Profession.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:01] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:01] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:01] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:01] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:04] "GET /tenant_login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:04] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:04] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:08] "[32mPOST /tenant_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:08] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:09] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:16] "GET /view_announcements HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:18] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:18] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:20] "GET /due_amount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:22] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:22] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:24] "GET /payment_history HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:27] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:27] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:43] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:43] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:47] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:47] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:47] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:47] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:48] "GET /tenant_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:03:48] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:45] "[32mPOST /tenant_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:45] "GET /registration_success HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:48] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:48] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:48] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:48] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:50] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:50] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:50] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:59] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:04:59] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:05:10] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:05:10] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:05:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:05:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:05:33] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:05:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:05:33] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:05:33] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:05:33] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.193.51:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:26] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:26] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:26] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:26] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:27] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:45] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:46] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:46] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:54] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:15:54] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:03] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:04] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:05] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:05] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:39] "POST /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:39] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:44] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:44] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:44] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:44] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:44] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:44] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:44] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:44] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:44] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:44] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:44] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:47] "GET /tenant/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:47] "[36mGET /static/aadhar_path.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:47] "[36mGET /static/income.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:47] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:47] "[36mGET /static/PAN.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:52] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:53] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:16:53] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:02] "[32mPOST /profile HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:02] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:02] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:02] "GET /static/uploads/Profession.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:05] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:05] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:06] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:06] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:06] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:06] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:06] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:06] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:06] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:06] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:06] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:07] "GET /tenant/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:07] "[36mGET /static/aadhar_path.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:07] "[36mGET /static/income.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:07] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:07] "[36mGET /static/PAN.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:11] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:11] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:27] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:27] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:27] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:27] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:29] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:29] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:29] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:29] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:29] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:30] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:31] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:31] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:35] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:35] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:35] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:35] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:35] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:57] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:57] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:57] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:59] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:17:59] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:53] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:53] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:54] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:55] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:55] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:55] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:55] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:55] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:57] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:57] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:57] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:57] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:18:58] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:15] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:15] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:15] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:17] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:18] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:28] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:28] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:43] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:43] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:55] "POST /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:55] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:58] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:19:59] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:04] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:04] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:04] "[36mGET /static/images/Profession.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:04] "[36mGET /static/images/Dhanush.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:04] "[36mGET /static/images/OldAge1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:04] "[36mGET /static/images/Thejdeep.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:04] "[36mGET /static/images/OldAge2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:04] "[36mGET /static/images/OldAge3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:04] "[36mGET /static/images/Family.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:05] "[36mGET /static/images/Family1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:05] "[36mGET /static/images/Family3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:06] "GET /tenant/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:06] "[36mGET /static/aadhar_path.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:06] "[36mGET /static/income.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:06] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:06] "[36mGET /static/PAN.pdf HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:10] "GET /property HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:10] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:10] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:10] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:10] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:13] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:13] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:13] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:13] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:15] "GET /tenant_login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:16] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:16] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:19] "[32mPOST /tenant_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:19] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:20] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:28] "GET /view_announcements HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:31] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:31] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:32] "GET /due_amount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:34] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:34] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:36] "GET /payment_history HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:39] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:39] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:52] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:52] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:55] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:55] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:55] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:55] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:56] "GET /tenant_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:20:56] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:21:42] "[32mPOST /tenant_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:21:42] "GET /registration_success HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:21:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:21:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:21:43] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:21:43] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:21:43] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2024 23:21:43] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.99.248:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.31.99.248:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:30:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:30:24] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:30:24] "GET /static/images/2BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:30:24] "GET /static/images/3BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:30:24] "GET /static/images/LIRLogo.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:30:24] "GET /static/images/1BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:30:24] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:06] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:06] "GET /static/login.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:06] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:root:Unhandled Exception: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS' (most likely due to a circular import)
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:12] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:12] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:16] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:16] "GET /static/dashboard.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:22] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:22] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:22] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:22] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:23] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:23] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:23] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:23] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:23] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:26] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:26] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:26] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:26] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:26] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:32] "[32mGET /login?user_type=admin HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:32] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:31:33] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:32:03] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:32:03] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:32:03] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:32:06] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:32:06] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\pydantic\\_internal\\_config.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:33:41] "POST /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:33:41] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:33:48] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:33:48] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:03] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:03] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:17] "GET /property HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:17] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:17] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:17] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:17] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:19] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:19] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:19] "GET /static/images/Dhanush.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:19] "GET /static/images/OldAge2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:19] "GET /static/images/Thejdeep.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:19] "GET /static/images/Profession.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:19] "GET /static/images/OldAge1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:19] "GET /static/images/OldAge3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:19] "GET /static/images/Family.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:19] "GET /static/images/Family1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:19] "GET /static/images/Family3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:21] "GET /tenant/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:21] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:21] "GET /static/aadhar_path.pdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:21] "GET /static/income.pdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:21] "GET /static/PAN.pdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:25] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:25] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:30] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:30] "GET /static/profile.css HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:30] "[35m[1mGET /static/uploads/profile.jpg HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:39] "[32mPOST /profile HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:40] "GET /profile HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:40] "GET /static/uploads/Dhanush.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:40] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:42] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:42] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:45] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:45] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:45] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:45] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:50] "GET /tenant_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:34:50] "GET /static/register.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:30] "GET /tenant_login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:30] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:31] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:33] "[32mPOST /tenant_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:33] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:33] "GET /static/uploads/Dhanush.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:37] "GET /view_announcements HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:44] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:44] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:46] "GET /due_amount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:48] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:48] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:49] "GET /payment_history HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:52] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:52] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:58] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:35:58] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:06] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:06] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:06] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:06] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:08] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:08] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:08] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:08] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 08:36:09] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.31.99.248:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-412-811
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:41] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:41] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:41] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:41] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:41] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:53] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:53] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:53] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:57] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:24:58] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:25:02] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:25:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:25:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:25:02] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:25:02] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:25:02] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 09:25:02] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.193.51:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 10:27:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 10:27:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 10:27:10] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 10:27:10] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 10:27:10] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 10:27:10] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -

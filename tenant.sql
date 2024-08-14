@@ -1,8 +1,11 @@
-create database Tenant;
-use tenant;
+USE Tenant;
 
-show tables;
+-- Drop existing tables if they exist
+DROP TABLE IF EXISTS tenant_applications;
+DROP TABLE IF EXISTS tenant_registrations;
+DROP TABLE IF EXISTS tenant_credentials;
 
+-- Create the tenant_applications table
 CREATE TABLE tenant_applications (
     id INT AUTO_INCREMENT PRIMARY KEY,
     employment_history VARCHAR(255),
@@ -20,36 +23,7 @@ CREATE TABLE tenant_applications (
     result VARCHAR(50)
 );
 
-select * from tenant_applications;
-DESCRIBE tenant_applications;
-DELETE FROM tenant_applications
-WHERE id NOT IN (1, 2, 3);
-
-
-CREATE TABLE tenant_applications (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    employment_history VARCHAR(255),
-    income DECIMAL(10, 2),
-    rental_history VARCHAR(255),
-    credit_score INT,
-    payment_history VARCHAR(255),
-    outstanding_debts DECIMAL(10, 2),
-    criminal_records VARCHAR(255),
-    legal_issues VARCHAR(255),
-    employment_verification VARCHAR(255),
-    income_verification VARCHAR(255),
-    personal_references VARCHAR(255),
-    professional_references VARCHAR(255),
-    result VARCHAR(50)
-);
-
-select * from tenant_applications;
-DESCRIBE tenant_applications;
-DELETE FROM tenant_applications
-WHERE id NOT IN (1, 2, 3);
-
-
-
+-- Create the tenant_registrations table
 CREATE TABLE tenant_registrations (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -58,16 +32,13 @@ CREATE TABLE tenant_registrations (
     income DECIMAL(10, 2),
     rental_history TEXT,
     credit_score INT,
-    aadhar VARCHAR(255),  -- Path to uploaded Aadhaar document
-    pan VARCHAR(255),     -- Path to uploaded PAN document
-    income_certificate VARCHAR(255),  -- Path to uploaded income certificate
+    aadhar VARCHAR(255),
+    pan VARCHAR(255),
+    income_certificate VARCHAR(255),
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-select * from tenant_registrations;
-
-SHOW COLUMNS FROM tenant_registrations;
-
+-- Create the tenant_credentials table
 CREATE TABLE tenant_credentials (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) UNIQUE NOT NULL,
@@ -78,4 +49,3 @@ CREATE TABLE tenant_credentials (
     address TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-

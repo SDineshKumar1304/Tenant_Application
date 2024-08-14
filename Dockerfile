@@ -1,24 +1,26 @@
-# Use an official Python runtime as a parent image
+# Use the official Python image from the Docker Hub
 FROM python:3.11-slim
 
-# Set environment variables
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
+# Install system dependencies required for mysqlclient
+RUN apt-get update && \
+    apt-get install -y \
+    build-essential \
+    pkg-config \
+    libmariadb-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the requirements file into the container at /app
-COPY requirements.txt /app/
-
-# Install any needed packages specified in requirements.txt
+# Copy the requirements file and install dependencies
+COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application into the container
-COPY . /app/
+# Copy the entire application code to the container
+COPY . .
 
-# Expose the port the app runs on
-EXPOSE 5001
+# Expose port 8000
+EXPOSE 8000
 
-# Define the command to run the application
-CMD ["gunicorn", "-b", "0.0.0.0:5001", "app:app"]
+# Command to run the application
+CMD ["python", "app.py"]

@@ -9,6 +9,8 @@ import plotly.io as pio
 from werkzeug.security import check_password_hash, generate_password_hash
 from datetime import datetime
 import logging
+import warnings
+warnings.filterwarnings('ignore')
 
 logging.basicConfig(filename='app.log', level=logging.ERROR)
 
@@ -17,7 +19,7 @@ logging.basicConfig(filename='app.log', level=logging.ERROR)
 app = Flask(__name__)
 app.secret_key = 'DK1329'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@localhost/Tenant'
+SQLALCHEMY_DATABASE_URI = 'mysql://root:root@mysql-container:3306/Tenant'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -95,6 +97,7 @@ class TenantRegistration(db.Model):
     tenant_type = db.Column(db.String(50))  # Column for tenant type
     gender = db.Column(db.String(10))  # Added column for gender
     age = db.Column(db.Integer)        # Added column for age
+    criminal_records = db.Column(db.String(50))  # Added column for criminal records
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
 #**************************************Index Routing*******************************#
@@ -117,8 +120,9 @@ def register():
             tenant_type = request.form.get('tenant_type')
             gender = request.form.get('gender')
             age = request.form.get('age')
+            criminal_records = request.form.get('criminal_records')  # Added field
 
-            if not all([name, contact_details, employment_history, income, rental_history, credit_score, tenant_type, gender, age]):
+            if not all([name, contact_details, employment_history, income, rental_history, credit_score, tenant_type, gender, age, criminal_records]):
                 flash('All fields are required!')
                 return redirect(request.url)
 
@@ -153,8 +157,9 @@ def register():
                 pan=pan_path,
                 income_certificate=income_certificate_path,
                 tenant_type=tenant_type,
-                gender=gender,  # Added gender
-                age=age  # Added age
+                gender=gender,
+                age=age,
+                criminal_records=criminal_records  # Added field
             )
 
             # Save the new registration to the database
@@ -168,7 +173,6 @@ def register():
             flash(f'Error during registration: {e}')
 
     return render_template('tenant_register.html')
-
 
 @app.route('/registration_success')
 def registration_success():
@@ -208,6 +212,7 @@ def logout():
     else:
         print("No user session found.")
     return redirect(url_for('index'))
+
 #*****************************Tenant page Routing*********************#
 @app.route('/tenant', methods=['GET', 'POST'])
 def tenant():
@@ -607,4 +612,4 @@ def payment_history():
 
 #********************************************Running the Application************************************#
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5001, debug=True)
+    app.run(host='0.0.0.0', port=8000, debug=True)
