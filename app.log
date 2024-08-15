@@ -12200,3 +12200,438 @@ INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 10:27:10] "[36mGET /static/images/LIRL
 INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 10:27:10] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 10:27:10] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [14/Aug/2024 10:27:10] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.193.51:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:31] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:31] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:31] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:31] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:33] "[32mGET /login?user_type=admin HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:37] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:37] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:47] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:47] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:47] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:47] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:55] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:55] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:55] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:55] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:36:55] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:09] "GET /tenant_login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:10] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:10] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:14] "[32mPOST /tenant_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:14] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:14] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:21] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:21] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:21] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:21] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:22] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:22] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:22] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:22] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:22] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:24] "GET /tenant_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:25] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:30] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:31] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:37:31] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\OneDrive\\Desktop\\Tenantlir\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:48:43] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:48:43] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:48:44] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:48:44] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:48:44] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:48:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:48:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:48:53] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:48:53] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:48:53] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:48:53] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:12] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:12] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:12] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:12] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:14] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:14] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:14] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:root:Unhandled Exception: (MySQLdb.OperationalError) (2005, "Unknown server host 'db' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:21] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:49:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.193.51:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:02] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:02] "GET /static/images/1BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:02] "GET /static/images/LIRLogo.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:02] "GET /static/images/2BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:02] "GET /static/images/3BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:02] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:04] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:04] "GET /static/login.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:04] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:root:Unhandled Exception: (MySQLdb.OperationalError) (2005, "Unknown server host 'db' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:23] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: (MySQLdb.OperationalError) (2005, "Unknown server host 'db' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:37] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:44] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:44] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:44] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:44] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:52:44] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.193.51:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:00] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:00] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:00] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:00] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:00] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:01] "[32mGET /login?user_type=admin HTTP/1.1[0m" 302 -
+ERROR:root:Unhandled Exception: (MySQLdb.OperationalError) (2005, "Unknown server host 'db' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:04] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:19] "[32mGET /tenant_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:19] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:20] "GET /static/uploads/Dhanush.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:23] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:23] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:23] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:23] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:36] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:36] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:36] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:root:Unhandled Exception: (MySQLdb.OperationalError) (2005, "Unknown server host 'db' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:47] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:53:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: (MySQLdb.OperationalError) (2005, "Unknown server host 'db' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:47] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:50] "[32mGET /login?user_type=admin HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:52] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:52] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+ERROR:root:Unhandled Exception: (MySQLdb.OperationalError) (2005, "Unknown server host 'db' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:53] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:54] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:54] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:54] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:54:54] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.193.51:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:16] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:16] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:16] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:16] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:17] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:18] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:18] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:18] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:30] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:30] "GET /static/dashboard.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:49] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:49] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:55:50] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:47] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:47] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:49] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:50] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:50] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:50] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:50] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:54] "GET /tenant_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:56:54] "GET /static/register.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:22] "[32mPOST /tenant_register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:22] "GET /registration_success HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:24] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:24] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:24] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:24] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:35] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:35] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:35] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:37] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:37] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:55] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 17:58:55] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.193.51:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:23] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:23] "GET /static/images/LIRLogo.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:23] "GET /static/images/2BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:23] "GET /static/images/1BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:23] "GET /static/images/3BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:23] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:25] "[32mGET /login?user_type=admin HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:26] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:26] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:30] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:30] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:30] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:30] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:30] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:32] "GET /tenant_login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:32] "GET /static/login.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:32] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:45] "[32mPOST /tenant_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:45] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:45] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:51] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:51] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:51] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:51] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:53] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:53] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:53] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:53] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:20:53] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\helpers.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\globals.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\flask\\wrappers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\svani\\anaconda3\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.193.51:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 311-605-179
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:31] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:31] "GET /static/images/LIRLogo.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:32] "GET /static/images/1BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:32] "GET /static/images/3BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:32] "GET /static/images/2BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:32] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:33] "GET /login?user_type=admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:33] "GET /static/login.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:33] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:39] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:39] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:45] "GET /model_analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:46] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:49] "GET /analysis HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:49] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:54] "GET /tenant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:54] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:54] "GET /static/images/Profession.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:54] "GET /static/images/Dhanush.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:54] "GET /static/images/OldAge1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:54] "GET /static/images/Thejdeep.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:54] "GET /static/images/OldAge2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:54] "GET /static/images/OldAge3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:54] "GET /static/images/Family.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:54] "GET /static/images/Family1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:54] "GET /static/images/Family3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:55] "GET /tenant/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:55] "GET /static/aadhar_path.pdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:55] "GET /static/income.pdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:55] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:55] "GET /static/PAN.pdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:23:59] "GET /property HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:00] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:00] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:00] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:00] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:04] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:04] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:04] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:04] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:06] "GET /tenant_login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:06] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:06] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:10] "[32mPOST /tenant_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:10] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:10] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:14] "GET /view_announcements HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:16] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:16] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:17] "GET /payment_history HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:18] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:18] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:20] "GET /due_amount HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:21] "GET /tenant_dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:21] "[36mGET /static/uploads/Dhanush.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:23] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:23] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:23] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:23] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:25] "GET /tenant_register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:25] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:32] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:32] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:32] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:32] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2024 18:24:32] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -

@@ -16,13 +16,19 @@ logging.basicConfig(filename='app.log', level=logging.ERROR)
 
 
 #****************************************DataBase Configuration******************************************#
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 app = Flask(__name__)
-app.secret_key = 'DK1329'
 
-SQLALCHEMY_DATABASE_URI = 'mysql://root:root@mysql-container:3306/Tenant'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('SQLALCHEMY_DATABASE_URI')
+app.config['ENV'] = os.getenv('FLASK_ENV')
+
 db = SQLAlchemy(app)
-
+    
 
 #******************************************Upload Foder Access****************************************#
 
@@ -498,18 +504,10 @@ mock_credentials = {
 }
 
 def verify_user(username, password):
-    # Check if the username is in the mock credentials
     user = mock_credentials.get(username)
-    
-    if user:
-        print(f"Checking credentials for user: {username}")  # Debug statement
-        # Verify the password against the hashed password
-        if check_password_hash(user['password'], password):
-            return True
-            
+    if user and check_password_hash(user['password'], password):
+        return True
     return False
-
-
 
 
 @app.route('/tenant/<int:tenant_id>')
@@ -612,4 +610,4 @@ def payment_history():
 
 #********************************************Running the Application************************************#
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)

@@ -3,7 +3,7 @@ USE Tenant;
 -- Drop existing tables if they exist
 DROP TABLE IF EXISTS tenant_applications;
 DROP TABLE IF EXISTS tenant_registrations;
-DROP TABLE IF EXISTS tenant_credentials;
+
 
 -- Create the tenant_applications table
 CREATE TABLE tenant_applications (
@@ -38,14 +38,3 @@ CREATE TABLE tenant_registrations (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- Create the tenant_credentials table
-CREATE TABLE tenant_credentials (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255) UNIQUE NOT NULL,
-    password_hash VARCHAR(255) NOT NULL,
-    user_type ENUM('tenant', 'admin') DEFAULT 'tenant',
-    email VARCHAR(255),
-    phone VARCHAR(20),
-    address TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);

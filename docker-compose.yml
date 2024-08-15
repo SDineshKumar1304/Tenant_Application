@@ -1,28 +1,28 @@
 version: '3.8'
 
 services:
-  mysql:
+  db:
     image: mysql:8.0
-    container_name: mysql
-    restart: always
+    container_name: mysql_db
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: Tenant
     ports:
-      - "3308:3306"  # Change this line
+      - "3307:3306"  # Map host port 3307 to container port 3306
     volumes:
-      - mysql_data:/var/lib/mysql
+      - db_data:/var/lib/mysql
 
-  flask:
+  web:
     build: .
-    container_name: flask-app
-    command: python app.py
-    ports:
-      - "8000:8000"
-    depends_on:
-      - mysql
+    container_name: flask_app
     environment:
+      FLASK_APP: app.py
       FLASK_ENV: development
+      SQLALCHEMY_DATABASE_URI: mysql://root:root@db/Tenant
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
 
 volumes:
-  mysql_data:
+  db_data:
