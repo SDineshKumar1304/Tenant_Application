@@ -9,6 +9,7 @@ import plotly.io as pio
 from werkzeug.security import check_password_hash, generate_password_hash
 from datetime import datetime
 import logging
+from sqlalchemy import text  # Import the text function
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -26,9 +27,21 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY')
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('SQLALCHEMY_DATABASE_URI')
 app.config['ENV'] = os.getenv('FLASK_ENV')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
-    
+
+
+@app.route('/test_db')
+def test_db():
+    try:
+        # Create a connection to the database
+        with db.engine.connect() as connection:
+            result = connection.execute(text("SELECT DATABASE();"))
+            for row in result:
+                return f"Connected to database: {row[0]}"
+    except Exception as e:
+        return f"Failed to connect to database: {str(e)}"
 
 #******************************************Upload Foder Access****************************************#
 
@@ -117,6 +130,7 @@ def index():
 def register():
     if request.method == 'POST':
         try:
+            # Extract form data
             name = request.form.get('name')
             contact_details = request.form.get('contact_details')
             employment_history = request.form.get('employment_history')
@@ -126,32 +140,58 @@ def register():
             tenant_type = request.form.get('tenant_type')
             gender = request.form.get('gender')
             age = request.form.get('age')
-            criminal_records = request.form.get('criminal_records')  # Added field
+            criminal_records = request.form.get('criminal_records')
 
+            # Debugging: Print form data
+            app.logger.info(f'Name: {name}')
+            app.logger.info(f'Contact Details: {contact_details}')
+            app.logger.info(f'Employment History: {employment_history}')
+            app.logger.info(f'Income: {income}')
+            app.logger.info(f'Rental History: {rental_history}')
+            app.logger.info(f'Credit Score: {credit_score}')
+            app.logger.info(f'Tenant Type: {tenant_type}')
+            app.logger.info(f'Gender: {gender}')
+            app.logger.info(f'Age: {age}')
+            app.logger.info(f'Criminal Records: {criminal_records}')
+
+            # Check if all required fields are provided
             if not all([name, contact_details, employment_history, income, rental_history, credit_score, tenant_type, gender, age, criminal_records]):
-                flash('All fields are required!')
+                flash('All fields are required!', 'danger')
                 return redirect(request.url)
 
+            # Handle file uploads
             aadhar_file = request.files.get('aadhar')
             pan_file = request.files.get('pan')
             income_certificate_file = request.files.get('income_certificate')
 
             if not (aadhar_file and pan_file and income_certificate_file):
-                flash('All documents are required')
+                flash('All documents are required', 'danger')
                 return redirect(request.url)
 
             if not (allowed_file(aadhar_file.filename) and allowed_file(pan_file.filename) and allowed_file(income_certificate_file.filename)):
-                flash('Invalid file type')
+                flash('Invalid file type', 'danger')
                 return redirect(request.url)
 
-            aadhar_path = os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(aadhar_file.filename))
-            pan_path = os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(pan_file.filename))
-            income_certificate_path = os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(income_certificate_file.filename))
+            # Generate secure file paths
+            aadhar_filename = secure_filename(aadhar_file.filename)
+            pan_filename = secure_filename(pan_file.filename)
+            income_certificate_filename = secure_filename(income_certificate_file.filename)
 
+            aadhar_path = os.path.join(app.config['UPLOAD_FOLDER'], aadhar_filename)
+            pan_path = os.path.join(app.config['UPLOAD_FOLDER'], pan_filename)
+            income_certificate_path = os.path.join(app.config['UPLOAD_FOLDER'], income_certificate_filename)
+
+            # Save the files
             aadhar_file.save(aadhar_path)
             pan_file.save(pan_path)
             income_certificate_file.save(income_certificate_path)
 
+            # Debugging: Log paths of saved files
+            app.logger.info(f'Aadhar Path: {aadhar_path}')
+            app.logger.info(f'PAN Path: {pan_path}')
+            app.logger.info(f'Income Certificate Path: {income_certificate_path}')
+
+            # Create new registration entry
             new_registration = TenantRegistration(
                 name=name,
                 contact_details=contact_details,
@@ -165,25 +205,28 @@ def register():
                 tenant_type=tenant_type,
                 gender=gender,
                 age=age,
-                criminal_records=criminal_records  # Added field
+                criminal_records=criminal_records
             )
 
-            # Save the new registration to the database
+            # Save to database
             db.session.add(new_registration)
             db.session.commit()
 
-            flash('Registration successful!')
+            flash('Registration successful!', 'success')
             return redirect(url_for('registration_success'))
+
         except Exception as e:
+            # Rollback the session in case of error
             db.session.rollback()
-            flash(f'Error during registration: {e}')
+            app.logger.error(f'Error during registration: {e}')
+            flash(f'Error during registration: {e}', 'danger')
+            return redirect(request.url)
 
     return render_template('tenant_register.html')
 
 @app.route('/registration_success')
 def registration_success():
     return render_template('success.html')
-
 
 #********************************************Admin login Routing***************************#
 @app.route('/login', methods=['GET', 'POST'])
