@@ -1,0 +1,16 @@
+FROM mysql:8.0-debian
+
+# Set the working directory
+WORKDIR /
+
+# # Set environment variables
+# ENV MYSQL_DATABASE=Tenant
+# ENV MYSQL_ROOT_PASSWORD=root
+
+# Update and upgrade the base system
+RUN apt-get update && \
+    apt-get upgrade --yes
+
+
+COPY tenant.sql /docker-entrypoint-initdb.d/
+

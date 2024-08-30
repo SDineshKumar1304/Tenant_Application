@@ -12818,3 +12818,71 @@ INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 22:31:56] "[36mGET /static/images/1BHK
 INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 22:31:56] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 22:31:56] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 22:31:56] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-409-471
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:23:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:23:28] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:23:28] "GET /static/images/LIRLogo.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:23:28] "GET /static/images/3BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:23:28] "GET /static/images/2BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:23:28] "GET /static/images/1BHK.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:23:30] "[32mGET /login?user_type=admin HTTP/1.1[0m" 302 -
+ERROR:root:Unhandled Exception: (MySQLdb.OperationalError) (2002, "Can't connect to server on 'localhost' (10061)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:23:35] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:23:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: (MySQLdb.OperationalError) (1049, "Unknown database 'Tenant'")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:31:44] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:31:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:31:49] "[32mGET /login?user_type=admin HTTP/1.1[0m" 302 -
+ERROR:root:Unhandled Exception: (MySQLdb.OperationalError) (1049, "Unknown database 'Tenant'")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:31:49] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:31:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.20:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-409-471
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:32:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:32:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:32:14] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:32:14] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:32:14] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:32:14] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:32:16] "[32mGET /login?user_type=admin HTTP/1.1[0m" 302 -
+ERROR:root:Unhandled Exception: (MySQLdb.OperationalError) (1049, "Unknown database 'Tenant'")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:32:16] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:32:16] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: (MySQLdb.ProgrammingError) (1146, "Table 'Tenant.tenant_applications' doesn't exist")
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT tenant_applications.id AS tenant_applications_id, tenant_applications.employment_history AS tenant_applications_employment_history, tenant_applications.income AS tenant_applications_income, tenant_applications.rental_history AS tenant_applications_rental_history, tenant_applications.credit_score AS tenant_applications_credit_score, tenant_applications.payment_history AS tenant_applications_payment_history, tenant_applications.outstanding_debts AS tenant_applications_outstanding_debts, tenant_applications.criminal_records AS tenant_applications_criminal_records, tenant_applications.legal_issues AS tenant_applications_legal_issues, tenant_applications.employment_verification AS tenant_applications_employment_verification, tenant_applications.income_verification AS tenant_applications_income_verification, tenant_applications.personal_references AS tenant_applications_personal_references, tenant_applications.professional_references AS tenant_applications_professional_references, tenant_applications.result AS tenant_applications_result 
+FROM tenant_applications) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:36:03] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:36:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:37:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:37:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:37:11] "[36mGET /static/images/1BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:37:11] "[36mGET /static/images/LIRLogo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:37:11] "[36mGET /static/images/2BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:37:11] "[36mGET /static/images/3BHK.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:37:14] "GET /test_db HTTP/1.1" 200 -
+ERROR:root:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:37:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -

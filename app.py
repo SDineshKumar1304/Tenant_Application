@@ -72,7 +72,7 @@ ADMIN_PROFILE = {
 @app.errorhandler(Exception)
 def handle_exception(e):
     logging.error(f"Unhandled Exception: {e}")
-    return "An unexpected error occurred. Please try again later.", 500
+    return f"An unexpected error occurred. Please try again later. {e}", 500
 
 
 #**************************************Model Integration*************************#

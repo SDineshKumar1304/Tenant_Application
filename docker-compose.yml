@@ -2,15 +2,15 @@ version: '3.8'
 
 services:
   db:
-    image: mysql:8.0
+    build: assets/.
     container_name: mysql_db
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: Tenant
     ports:
       - "3307:3306"  # Map host port 3307 to container port 3306
-    volumes:
-      - db_data:/var/lib/mysql
+    # volumes:
+    #   - db_data:/var/lib/mysql
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
       interval: 10s
@@ -31,8 +31,8 @@ services:
     depends_on:
       db:
         condition: service_healthy
-    volumes:
-      - ./static/uploads:/app/static/uploads  # Mount local directory to container
+    # volumes:
+    #   - ./static/uploads:/app/static/uploads  # Mount local directory to container
 
-volumes:
-  db_data:
+# volumes:
+#   db_data:

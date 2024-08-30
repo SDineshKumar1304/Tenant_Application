@@ -32,9 +32,13 @@ CREATE TABLE tenant_registrations (
     income DECIMAL(10, 2),
     rental_history TEXT,
     credit_score INT,
-    aadhar VARCHAR(255),
-    pan VARCHAR(255),
-    income_certificate VARCHAR(255),
+    aadhar VARCHAR(255),  -- Path to uploaded Aadhaar document
+    pan VARCHAR(255),     -- Path to uploaded PAN document
+    income_certificate VARCHAR(255),  -- Path to uploaded income certificate
+    tenant_type VARCHAR(50),  -- New column for tenant type
+    gender VARCHAR(10),  -- New column for gender
+    age INT,             -- New column for age
+    criminal_records VARCHAR(20),  -- New column for criminal records
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
